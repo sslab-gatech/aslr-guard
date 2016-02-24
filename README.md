@@ -3,9 +3,11 @@
 ASLR-Guard is a security mechanism aims to prevent code pointer leaks or render their leak harmless, 
 so that code reuse attacks that need to first leak the randomized address can be prevented.
 ASLR-Guard toolchain is built based on the GNU toolchain. 
+ASLR-Guard paper was published at ACM CCS'15.
 
-### Documentable
-Currently, the paper (see aslrguard.pdf) is the only document.
+### Documentation
+CCS'15 paper: https://sslab.gtisc.gatech.edu/assets/papers/2015/lu:aslrguard.pdf
+Webpage: https://sslab.gtisc.gatech.edu/pages/memrand.html
 
 ### Build ASLR-Guard
 It is easy to build:
