@@ -1,0 +1,17 @@
+1. Making code and data separation reliable. Due to it is not reliable yet, this feature is
+  disabled.
+
+2. Checking if a pointer is already encrypted before invoking the encryption routine. If it isi
+  already encrypted, skip the encryption routine.
+    - Solution1: maintain a table in data segment of each module. Its entry contains a 4-bytes
+      value indicating if a pointer is already encrypted and (if yes) the offset into the rand
+      mapping table. The relative address of pointer definition (e.g., getpc) into its entry
+      in the table is fixed, so that the checking can efficiently locate the corresponding 
+      entry at runtime.
+    - Solution2: use a hash table for the random mapping table
+
+3. Prebuild libraries.
+    - Due to that some projects (e.g., gcc) have custom building approaches, there may have
+      difficulties in building them with ASLR-Guard's toolchain, so we will prebuild them for
+      direct use.
+

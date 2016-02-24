@@ -1,0 +1,2885 @@
+# Esperanto translation.
+# Copyright (C) 2013 Free Software Foundation, Inc.
+# This file is distributed under the same license as the tar package.
+# Felipe Castro <fefcas@gmail.com>, 2013.
+#
+#: src/create.c:1572
+msgid ""
+msgstr ""
+"Project-Id-Version: tar 1.26\n"
+"Report-Msgid-Bugs-To: bug-tar@gnu.org\n"
+"POT-Creation-Date: 2013-10-05 23:10+0300\n"
+"PO-Revision-Date: 2013-05-27 08:08-0300\n"
+"Last-Translator: Felipe Castro <fefcas@gmail.com>\n"
+"Language-Team: Esperanto <translation-team-eo@lists.sourceforge.net>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: gnu/argmatch.c:135
+#, c-format
+msgid "invalid argument %s for %s"
+msgstr "malvalida argumento %s por %s"
+
+#: gnu/argmatch.c:136
+#, c-format
+msgid "ambiguous argument %s for %s"
+msgstr "plursenca argumento %s por %s"
+
+#: gnu/argmatch.c:155
+msgid "Valid arguments are:"
+msgstr "Validaj argumentoj estas:"
+
+#: gnu/argp-help.c:150
+#, c-format
+msgid "ARGP_HELP_FMT: %s value is less than or equal to %s"
+msgstr "ARGP_HELP_FMT: %s valoro estas malpli aŭ egala al %s"
+
+#: gnu/argp-help.c:223
+#, c-format
+msgid "%.*s: ARGP_HELP_FMT parameter requires a value"
+msgstr "%.*s: parametro en ARGP_HELP_FMT postulas valoron"
+
+#: gnu/argp-help.c:229
+#, c-format
+msgid "%.*s: ARGP_HELP_FMT parameter must be positive"
+msgstr "%.*s: parametro en ARGP_HELP_FMT devas esti pozitiva"
+
+#: gnu/argp-help.c:238
+#, c-format
+msgid "%.*s: Unknown ARGP_HELP_FMT parameter"
+msgstr "%.*s: Nekonata parametro en ARGP_HELP_FMT"
+
+#: gnu/argp-help.c:250
+#, c-format
+msgid "Garbage in ARGP_HELP_FMT: %s"
+msgstr "Rubaĵo en ARGP_HELP_FMT: %s"
+
+#: gnu/argp-help.c:1250
+msgid ""
+"Mandatory or optional arguments to long options are also mandatory or "
+"optional for any corresponding short options."
+msgstr ""
+"Devigaj aŭ nedevigaj argumentoj por longaj modifiloj ankaŭ estas devigaj aŭ "
+"nedevigaj por iu ajn korespondanta mallonga modifilo."
+
+#: gnu/argp-help.c:1643
+msgid "Usage:"
+msgstr "Uzmaniero:"
+
+#: gnu/argp-help.c:1647
+msgid "  or: "
+msgstr "  aŭ: "
+
+#: gnu/argp-help.c:1659
+msgid " [OPTION...]"
+msgstr " [MODIFILO...]"
+
+#: gnu/argp-help.c:1686
+#, fuzzy, c-format
+msgid "Try '%s --help' or '%s --usage' for more information.\n"
+msgstr "Provu '%s --help' aŭ '%s --usage' por pli da informo.\n"
+
+#: gnu/argp-help.c:1714
+#, c-format
+msgid "Report bugs to %s.\n"
+msgstr "Raportu program-misojn al %s.\n"
+
+#: gnu/argp-help.c:1933 gnu/error.c:190
+msgid "Unknown system error"
+msgstr "Nekonata sistem-eraro"
+
+#: gnu/argp-parse.c:83
+msgid "give this help list"
+msgstr "montri tiun ĉi help-liston"
+
+#: gnu/argp-parse.c:84
+msgid "give a short usage message"
+msgstr "montri mallongan mesaĝon pri la uzmaniero"
+
+#: gnu/argp-parse.c:85 src/tar.c:512 src/tar.c:514 src/tar.c:606
+#: tests/genfile.c:130
+msgid "NAME"
+msgstr "NOMO"
+
+#: gnu/argp-parse.c:85
+msgid "set the program name"
+msgstr "difini la program-nomon"
+
+#: gnu/argp-parse.c:86
+msgid "SECS"
+msgstr "SEK"
+
+#: gnu/argp-parse.c:87
+msgid "hang for SECS seconds (default 3600)"
+msgstr "halti dum SEK sekundoj (apriore 3600)"
+
+#: gnu/argp-parse.c:144
+msgid "print program version"
+msgstr "montri program-version"
+
+#: gnu/argp-parse.c:161
+msgid "(PROGRAM ERROR) No version known!?"
+msgstr "(PROGRAM-ERARO) Neniu versio estas konata!?"
+
+#: gnu/argp-parse.c:614
+#, c-format
+msgid "%s: Too many arguments\n"
+msgstr "%s: tro da argumentoj\n"
+
+#: gnu/argp-parse.c:757
+msgid "(PROGRAM ERROR) Option should have been recognized!?"
+msgstr "(PROGRAM-ERARO) Modifiloj devus esti rekonitaj!?"
+
+#: gnu/closeout.c:114
+msgid "write error"
+msgstr "skrib-eraro"
+
+#: gnu/getopt.c:549 gnu/getopt.c:578
+#, fuzzy, c-format
+msgid "%s: option '%s' is ambiguous; possibilities:"
+msgstr "%s: modifilo '%s' estas plursenca\n"
+
+#: gnu/getopt.c:626 gnu/getopt.c:630
+#, c-format
+msgid "%s: option '--%s' doesn't allow an argument\n"
+msgstr "%s: modifilo '--%s' ne permesas argumenton\n"
+
+#: gnu/getopt.c:639 gnu/getopt.c:644
+#, c-format
+msgid "%s: option '%c%s' doesn't allow an argument\n"
+msgstr "%s: modifilo '%c%s' ne permesas argumenton\n"
+
+#: gnu/getopt.c:687 gnu/getopt.c:706
+#, c-format
+msgid "%s: option '--%s' requires an argument\n"
+msgstr "%s: modifilo '--%s' postulas argumenton\n"
+
+#: gnu/getopt.c:744 gnu/getopt.c:747
+#, c-format
+msgid "%s: unrecognized option '--%s'\n"
+msgstr "%s: nerekonata modifilo '--%s'\n"
+
+#: gnu/getopt.c:755 gnu/getopt.c:758
+#, c-format
+msgid "%s: unrecognized option '%c%s'\n"
+msgstr "%s: nerekonata modifilo '%c%s'\n"
+
+#: gnu/getopt.c:807 gnu/getopt.c:810
+#, c-format
+msgid "%s: invalid option -- '%c'\n"
+msgstr "%s: malvalida modifilo -- '%c'\n"
+
+#: gnu/getopt.c:863 gnu/getopt.c:880 gnu/getopt.c:1090 gnu/getopt.c:1108
+#, c-format
+msgid "%s: option requires an argument -- '%c'\n"
+msgstr "%s: modifilo postulas argumenton -- '%c'\n"
+
+#: gnu/getopt.c:936 gnu/getopt.c:952
+#, c-format
+msgid "%s: option '-W %s' is ambiguous\n"
+msgstr "%s: modifilo '-W %s' estas plursenca\n"
+
+#: gnu/getopt.c:976 gnu/getopt.c:994
+#, c-format
+msgid "%s: option '-W %s' doesn't allow an argument\n"
+msgstr "%s: modifilo '-W %s' ne permesas argumenton\n"
+
+#: gnu/getopt.c:1015 gnu/getopt.c:1033
+#, c-format
+msgid "%s: option '-W %s' requires an argument\n"
+msgstr "%s: modifilo '-W %s' postulas argumenton\n"
+
+#: gnu/obstack.c:415 gnu/obstack.c:417 gnu/xalloc-die.c:36
+msgid "memory exhausted"
+msgstr "la memoro plenplenas"
+
+#: gnu/openat-die.c:40
+#, c-format
+msgid "unable to record current working directory"
+msgstr "ne eblas registri nunan labor-dosierujon"
+
+#: gnu/openat-die.c:59
+#, c-format
+msgid "failed to return to initial working directory"
+msgstr "ni fiaskis reveni al komenca labordosierujo"
+
+#. TRANSLATORS:
+#. Get translations for open and closing quotation marks.
+#. The message catalog should translate "`" to a left
+#. quotation mark suitable for the locale, and similarly for
+#. "'".  For example, a French Unicode local should translate
+#. these to U+00AB (LEFT-POINTING DOUBLE ANGLE
+#. QUOTATION MARK), and U+00BB (RIGHT-POINTING DOUBLE ANGLE
+#. QUOTATION MARK), respectively.
+#.
+#. If the catalog has no translation, we will try to
+#. use Unicode U+2018 (LEFT SINGLE QUOTATION MARK) and
+#. Unicode U+2019 (RIGHT SINGLE QUOTATION MARK).  If the
+#. current locale is not Unicode, locale_quoting_style
+#. will quote 'like this', and clocale_quoting_style will
+#. quote "like this".  You should always include translations
+#. for "`" and "'" even if U+2018 and U+2019 are appropriate
+#. for your locale.
+#.
+#. If you don't know what to put here, please see
+#. <http://en.wikipedia.org/wiki/Quotation_marks_in_other_languages>
+#. and use glyphs suitable for your language.
+#: gnu/quotearg.c:314
+msgid "`"
+msgstr "‘"
+
+#: gnu/quotearg.c:315
+msgid "'"
+msgstr "’"
+
+#. TRANSLATORS: A regular expression testing for an affirmative answer
+#. (english: "yes").  Testing the first character may be sufficient.
+#. Take care to consider upper and lower case.
+#. To enquire the regular expression that your system uses for this
+#. purpose, you can use the command
+#. locale -k LC_MESSAGES | grep '^yesexpr='
+#: gnu/rpmatch.c:152
+msgid "^[yY]"
+msgstr "^[jJyY]"
+
+#. TRANSLATORS: A regular expression testing for a negative answer
+#. (english: "no").  Testing the first character may be sufficient.
+#. Take care to consider upper and lower case.
+#. To enquire the regular expression that your system uses for this
+#. purpose, you can use the command
+#. locale -k LC_MESSAGES | grep '^noexpr='
+#: gnu/rpmatch.c:165
+msgid "^[nN]"
+msgstr "^[nN]"
+
+#: gnu/version-etc.c:76
+#, c-format
+msgid "Packaged by %s (%s)\n"
+msgstr "Pakigita de %s (%s)\n"
+
+#: gnu/version-etc.c:79
+#, c-format
+msgid "Packaged by %s\n"
+msgstr "Pakigita de %s\n"
+
+#. TRANSLATORS: Translate "(C)" to the copyright symbol
+#. (C-in-a-circle), if this symbol is available in the user's
+#. locale.  Otherwise, do not translate "(C)"; leave it as-is.
+#: gnu/version-etc.c:86
+msgid "(C)"
+msgstr "(C)"
+
+#: gnu/version-etc.c:88
+msgid ""
+"\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
+"html>.\n"
+"This is free software: you are free to change and redistribute it.\n"
+"There is NO WARRANTY, to the extent permitted by law.\n"
+"\n"
+msgstr ""
+"\n"
+"Permeso GPLv3+: GNU GPL versio 3 aŭ posta <http://gnu.org/licenses/gpl."
+"html>.\n"
+"Tio ĉi estas libera programaro: vi estas libera por ŝanĝi kaj redisdoni "
+"ĝin.\n"
+"Ekzistas NENIU GARANTIO, laŭ plej amplekse permesate de la leĝoj.\n"
+"\n"
+
+#. TRANSLATORS: %s denotes an author name.
+#: gnu/version-etc.c:104
+#, c-format
+msgid "Written by %s.\n"
+msgstr "Verkita de %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#: gnu/version-etc.c:108
+#, c-format
+msgid "Written by %s and %s.\n"
+msgstr "Verkita de %s kaj %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#: gnu/version-etc.c:112
+#, c-format
+msgid "Written by %s, %s, and %s.\n"
+msgstr "Verkita de %s, %s, kaj %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: gnu/version-etc.c:119
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"and %s.\n"
+msgstr ""
+"Verkita de %s, %s, %s,\n"
+"kaj %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: gnu/version-etc.c:126
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, and %s.\n"
+msgstr ""
+"Verkita de %s, %s, %s,\n"
+"%s, kaj %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: gnu/version-etc.c:133
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, and %s.\n"
+msgstr ""
+"Verkita de %s, %s, %s,\n"
+"%s, %s, kaj %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: gnu/version-etc.c:141
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, %s, and %s.\n"
+msgstr ""
+"Verkita de %s, %s, %s,\n"
+"%s, %s, %s, kaj %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: gnu/version-etc.c:149
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"and %s.\n"
+msgstr ""
+"Verkita de %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"kaj %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: gnu/version-etc.c:158
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"%s, and %s.\n"
+msgstr ""
+"Verkita de %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"%s, kaj %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: gnu/version-etc.c:169
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"%s, %s, and others.\n"
+msgstr ""
+"Verkita de %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"%s, %s, kaj aliaj.\n"
+
+#. TRANSLATORS: The placeholder indicates the bug-reporting address
+#. for this package.  Please add _another line_ saying
+#. "Report translation bugs to <...>\n" with the address for translation
+#. bugs (typically your translation team's web or email address).
+#: gnu/version-etc.c:247
+#, c-format
+msgid ""
+"\n"
+"Report bugs to: %s\n"
+msgstr ""
+"\n"
+"Raportu program-misojn al: %s\n"
+"Raportu traduk-misojn al: <translation-team-eo@lists.sourceforge.net>\n"
+
+#: gnu/version-etc.c:249
+#, c-format
+msgid "Report %s bugs to: %s\n"
+msgstr "Raportu program-misojn de %s al: %s\n"
+
+#: gnu/version-etc.c:253
+#, c-format
+msgid "%s home page: <%s>\n"
+msgstr "%s hejm-paĝo: <%s>\n"
+
+#: gnu/version-etc.c:255
+#, c-format
+msgid "%s home page: <http://www.gnu.org/software/%s/>\n"
+msgstr "%s hejm-paĝo: <http://www.gnu.org/software/%s/>\n"
+
+#: gnu/version-etc.c:258
+msgid "General help using GNU software: <http://www.gnu.org/gethelp/>\n"
+msgstr ""
+"Ĝenerala helpo por uzi programaron GNU: <http://www.gnu.org/gethelp/>\n"
+
+#. TRANSLATORS: %s after `Cannot' is a function name, e.g. `Cannot open'.
+#. Directly translating this to another language will not work, first because
+#. %s itself is not translated.
+#. Translate it as `%s: Function %s failed'.
+#: lib/paxerror.c:58 lib/paxerror.c:71
+#, c-format
+msgid "%s: Cannot %s"
+msgstr "%s: funkcio %s fiaskis"
+
+#. TRANSLATORS: %s after `Cannot' is a function name, e.g. `Cannot open'.
+#. Directly translating this to another language will not work, first because
+#. %s itself is not translated.
+#. Translate it as `%s: Function %s failed'.
+#: lib/paxerror.c:84
+#, c-format
+msgid "%s: Warning: Cannot %s"
+msgstr "%s: Averto: funkcio %s fiaskis"
+
+#: lib/paxerror.c:93
+#, c-format
+msgid "%s: Cannot change mode to %s"
+msgstr "%s: ne eblas ŝanĝi reĝimon al %s"
+
+#: lib/paxerror.c:101
+#, c-format
+msgid "%s: Cannot change ownership to uid %lu, gid %lu"
+msgstr "%s: ne eblas ŝanĝi posedon al UID %lu, GID %lu"
+
+#: lib/paxerror.c:127
+#, c-format
+msgid "%s: Cannot hard link to %s"
+msgstr "%s: ne eblas rekt-ligi al %s"
+
+#: lib/paxerror.c:179 lib/paxerror.c:211
+#, c-format
+msgid "%s: Read error at byte %s, while reading %lu byte"
+msgid_plural "%s: Read error at byte %s, while reading %lu bytes"
+msgstr[0] "%s: leg-eraro ĉe bajto %s, dum lego de %lu bajto"
+msgstr[1] "%s: leg-eraro ĉe bajto %s, dum lego de %lu bajtoj"
+
+#: lib/paxerror.c:192
+#, c-format
+msgid "%s: Warning: Read error at byte %s, while reading %lu byte"
+msgid_plural "%s: Warning: Read error at byte %s, while reading %lu bytes"
+msgstr[0] "%s: Averto: leg-eraro ĉe bajto %s, dum lego de %lu bajto"
+msgstr[1] "%s: Averto: leg-eraro ĉe bajto %s, dum lego de %lu bajtoj"
+
+#: lib/paxerror.c:259
+#, c-format
+msgid "%s: Cannot seek to %s"
+msgstr "%s: ne eblas apliki 'seek' al %s"
+
+#: lib/paxerror.c:275
+#, c-format
+msgid "%s: Warning: Cannot seek to %s"
+msgstr "%s: Averto: ne eblas apliki 'seek' al %s"
+
+#: lib/paxerror.c:284
+#, c-format
+msgid "%s: Cannot create symlink to %s"
+msgstr "%s: ne eblas krei simbol-ligon al %s"
+
+#: lib/paxerror.c:349
+#, c-format
+msgid "%s: Wrote only %lu of %lu byte"
+msgid_plural "%s: Wrote only %lu of %lu bytes"
+msgstr[0] "%s: skribita nur %lu el %lu bajto"
+msgstr[1] "%s: skribita nur %lu el %lu bajtoj"
+
+#: lib/paxnames.c:140
+#, c-format
+msgid "Removing leading `%s' from member names"
+msgstr "Forigo de antaŭira '%s' el membro-nomoj"
+
+#: lib/paxnames.c:141
+#, c-format
+msgid "Removing leading `%s' from hard link targets"
+msgstr "Forigo de antaŭira '%s' el rekt-ligaj celoj"
+
+#: lib/paxnames.c:154
+msgid "Substituting `.' for empty member name"
+msgstr "Anstataŭigo de '.' por malplena membro-nomo"
+
+#: lib/paxnames.c:155
+msgid "Substituting `.' for empty hard link target"
+msgstr "Anstataŭigo de '.' por malplena rekt-liga celo"
+
+#: lib/rtapelib.c:299
+#, c-format
+msgid "exec/tcp: Service not available"
+msgstr "exec/tcp: servo ne disponeblas"
+
+#: lib/rtapelib.c:303
+#, c-format
+msgid "stdin"
+msgstr "ĉefenigujo"
+
+#: lib/rtapelib.c:306
+#, c-format
+msgid "stdout"
+msgstr "ĉefeligujo"
+
+#: lib/rtapelib.c:429
+#, c-format
+msgid "Cannot connect to %s: resolve failed"
+msgstr "Ne eblas konekti al %s: adres-trovo fiaskis"
+
+#: lib/rtapelib.c:502
+#, fuzzy, c-format
+msgid "Cannot redirect files for remote shell"
+msgstr "Ne eblas lanĉi foran ŝelon"
+
+#: lib/rtapelib.c:516
+#, c-format
+msgid "Cannot execute remote shell"
+msgstr "Ne eblas lanĉi foran ŝelon"
+
+#: rmt/rmt.c:432
+msgid "Seek direction out of range"
+msgstr "Serĉ-direkto estas for de intervalo"
+
+#: rmt/rmt.c:438
+msgid "Invalid seek direction"
+msgstr "Malvalida serĉ-direkto"
+
+#: rmt/rmt.c:446
+msgid "Invalid seek offset"
+msgstr "Malvalida serĉ-deŝovo"
+
+#: rmt/rmt.c:452
+msgid "Seek offset out of range"
+msgstr "Serĉ-deŝovo estas for de intervalo"
+
+#: rmt/rmt.c:493 rmt/rmt.c:544 rmt/rmt.c:608
+msgid "Invalid byte count"
+msgstr "Malvalida bajt-nombro"
+
+#: rmt/rmt.c:499 rmt/rmt.c:550 rmt/rmt.c:614 rmt/rmt.c:625
+msgid "Byte count out of range"
+msgstr "Bajt-nombro estas for de intervalo"
+
+#: rmt/rmt.c:558
+msgid "Premature eof"
+msgstr "Trofrua EOF"
+
+#: rmt/rmt.c:601
+msgid "Invalid operation code"
+msgstr "Malvalida operacia kodo"
+
+#: rmt/rmt.c:636 rmt/rmt.c:680
+msgid "Operation not supported"
+msgstr "Operacio ne estas subtenata"
+
+#: rmt/rmt.c:664
+msgid "Unexpected arguments"
+msgstr "Neatenditaj argumentoj"
+
+#: rmt/rmt.c:689
+msgid "Manipulate a tape drive, accepting commands from a remote process"
+msgstr "Manipuli bendolegilon, akceptante komandojn el fora procezo"
+
+#: rmt/rmt.c:696 src/tar.c:440 src/tar.c:444 src/tar.c:604 src/tar.c:619
+#: src/tar.c:750 src/tar.c:788 tests/genfile.c:166
+msgid "NUMBER"
+msgstr "NUMERO"
+
+#: rmt/rmt.c:697
+msgid "set debug level"
+msgstr "difini rafinigan nivelon"
+
+#: rmt/rmt.c:698 src/tar.c:438 src/tar.c:609 src/tar.c:685 src/tar.c:689
+#: src/tar.c:701 src/tar.c:711 src/tar.c:714 src/tar.c:716 src/tar.c:805
+#: tests/genfile.c:132 tests/genfile.c:180 tests/genfile.c:184
+#: tests/genfile.c:187 tests/genfile.c:193
+msgid "FILE"
+msgstr "DOSIERO"
+
+#: rmt/rmt.c:699
+msgid "set debug output file name"
+msgstr "difini rafinigan eliran dosiernomon"
+
+#: rmt/rmt.c:715 rmt/rmt.c:783
+#, c-format
+msgid "cannot open %s"
+msgstr "ne eblas malfermi %s"
+
+#: rmt/rmt.c:780 tests/genfile.c:892 tests/genfile.c:909
+#, c-format
+msgid "too many arguments"
+msgstr "tro da argumentoj"
+
+#: rmt/rmt.c:822
+msgid "Garbage command"
+msgstr "Ruba komando"
+
+#: src/buffer.c:457 src/buffer.c:462 src/buffer.c:706 src/buffer.c:1322
+#: src/buffer.c:1368 src/buffer.c:1397 src/delete.c:212 src/list.c:244
+#: src/update.c:188
+msgid "This does not look like a tar archive"
+msgstr "Tio ĉi ne ŝajnas esti arĥivo tar"
+
+#: src/buffer.c:521 src/buffer.c:530
+msgid "Total bytes written"
+msgstr "Bajtoj entute skribitaj"
+
+#: src/buffer.c:528 src/buffer.c:542
+msgid "Total bytes read"
+msgstr "Bajtoj entute legitaj"
+
+#: src/buffer.c:532
+#, c-format
+msgid "Total bytes deleted: %s\n"
+msgstr "Bajtoj entute forigitaj: %s\n"
+
+#: src/buffer.c:621
+msgid "(pipe)"
+msgstr "(dukto)"
+
+#: src/buffer.c:644
+msgid "Invalid value for record_size"
+msgstr "Malvalida valoro por 'record_size'"
+
+#: src/buffer.c:647
+msgid "No archive name given"
+msgstr "Neniu arĥiv-nomo estas indikita"
+
+#: src/buffer.c:689
+msgid "Cannot verify stdin/stdout archive"
+msgstr "Ne eblas kontroli arĥivon de ĉefa en/eligujo"
+
+#: src/buffer.c:703
+#, c-format
+msgid "Archive is compressed. Use %s option"
+msgstr "Arĥivo estas densigita. Uzu modifilon %s"
+
+#: src/buffer.c:761 src/tar.c:2459
+msgid "Cannot update compressed archives"
+msgstr "Ne eblas ĝisdatigi densigitajn arĥivojn"
+
+#: src/buffer.c:854
+msgid "At beginning of tape, quitting now"
+msgstr "Ĉe komenco de bendo, ni ĉesas nun"
+
+#: src/buffer.c:860
+msgid "Too many errors, quitting"
+msgstr "Tro multaj eraroj, ni ĉesas"
+
+#: src/buffer.c:893
+#, c-format
+msgid "Record size = %lu block"
+msgid_plural "Record size = %lu blocks"
+msgstr[0] "Rikord-grando = %lu bloko"
+msgstr[1] "Rikord-grando = %lu blokoj"
+
+#: src/buffer.c:914
+#, c-format
+msgid "Unaligned block (%lu byte) in archive"
+msgid_plural "Unaligned block (%lu bytes) in archive"
+msgstr[0] "Malrektigita bloko (%lu bajto) en arĥivo"
+msgstr[1] "Malrektigita bloko (%lu bajtoj) en arĥivo"
+
+#: src/buffer.c:991
+msgid "Cannot backspace archive file; it may be unreadable without -i"
+msgstr "Ne eblas retropaŝi arĥivan dosieron; ĝi eble ne legeblos sen -i"
+
+#: src/buffer.c:1023
+msgid "rmtlseek not stopped at a record boundary"
+msgstr "'rmtlseek' ne haltis ĉe rikord-limo"
+
+#: src/buffer.c:1074
+#, c-format
+msgid "%s: contains invalid volume number"
+msgstr "%s: enhavas malvalidan volum-numeron"
+
+#: src/buffer.c:1109
+msgid "Volume number overflow"
+msgstr "Datumvolum-numero troigas"
+
+#: src/buffer.c:1124
+#, c-format
+msgid "Prepare volume #%d for %s and hit return: "
+msgstr "Preparu datumvolumon #%d por %s kaj premu enig-klavon: "
+
+#: src/buffer.c:1130
+msgid "EOF where user reply was expected"
+msgstr "EOF kie respondo de uzanto estis atendata"
+
+#: src/buffer.c:1135 src/buffer.c:1167
+msgid "WARNING: Archive is incomplete"
+msgstr "AVERTO: arĥivo estas malkompleta"
+
+#: src/buffer.c:1149
+#, c-format
+msgid ""
+" n name        Give a new file name for the next (and subsequent) volume(s)\n"
+" q             Abort tar\n"
+" y or newline  Continue operation\n"
+msgstr ""
+" n nomo        Indiki novan nomon por la venonta (kaj sekva) datumvolumo(j)\n"
+" q             Ĉesigi tar\n"
+" y aŭ novlinio Daŭrigi operacion\n"
+
+#: src/buffer.c:1154
+#, c-format
+msgid " !             Spawn a subshell\n"
+msgstr " !             Generi subŝelon\n"
+
+#: src/buffer.c:1155
+#, c-format
+msgid " ?             Print this list\n"
+msgstr " ?             Montri tiun ĉi liston\n"
+
+#: src/buffer.c:1162
+msgid "No new volume; exiting.\n"
+msgstr "Neniu nova datumvolumo: ni eliras.\n"
+
+#: src/buffer.c:1195
+msgid "File name not specified. Try again.\n"
+msgstr "Dosiernomo ne estis indikata. Reprovu.\n"
+
+#: src/buffer.c:1208
+#, c-format
+msgid "Invalid input. Type ? for help.\n"
+msgstr "Malvalida enigo. Tajpu ? por helpo.\n"
+
+#: src/buffer.c:1259
+#, c-format
+msgid "%s command failed"
+msgstr "La komando %s fiaskis"
+
+#: src/buffer.c:1440
+#, c-format
+msgid "%s is possibly continued on this volume: header contains truncated name"
+msgstr ""
+"%s eble estas daŭrigata en tiu ĉi datumvolumo: la kapo enhavas tranĉitan "
+"nomon"
+
+#: src/buffer.c:1444
+#, c-format
+msgid "%s is not continued on this volume"
+msgstr "%s ne estas daŭrigata en tiu ĉi datumvolumo"
+
+#: src/buffer.c:1458
+#, c-format
+msgid "%s is the wrong size (%s != %s + %s)"
+msgstr "%s estas malkorekta grando (%s != %s + %s)"
+
+#: src/buffer.c:1473
+#, c-format
+msgid "This volume is out of sequence (%s - %s != %s)"
+msgstr "Tiu ĉi datumvolumo estas for de sekvo (%s - %s != %s)"
+
+#: src/buffer.c:1551 src/buffer.c:1577
+#, c-format
+msgid "Archive not labeled to match %s"
+msgstr "La arĥivo ne estas markita por kongrui al %s"
+
+#: src/buffer.c:1581
+#, c-format
+msgid "Volume %s does not match %s"
+msgstr "La datumvolumo %s ne kongruas al %s"
+
+#: src/buffer.c:1675
+#, c-format
+msgid ""
+"%s: file name too long to be stored in a GNU multivolume header, truncated"
+msgstr ""
+"%s: dosiernomo tro longas por esti konservata en GNU-plurvoluma kapo, ni "
+"tranĉis"
+
+#: src/buffer.c:1866
+msgid "write did not end on a block boundary"
+msgstr "skribo ne finiĝis ĉe bloko-limo"
+
+#: src/compare.c:96
+#, c-format
+msgid "Could only read %lu of %lu byte"
+msgid_plural "Could only read %lu of %lu bytes"
+msgstr[0] "Eblis legi %lu el %lu bajto"
+msgstr[1] "Eblis legi %lu el %lu bajtoj"
+
+#: src/compare.c:106 src/compare.c:388
+msgid "Contents differ"
+msgstr "Enhavo malsamas"
+
+#: src/compare.c:132 src/extract.c:1132 src/incremen.c:1503 src/list.c:458
+#: src/list.c:1394 src/xheader.c:836
+msgid "Unexpected EOF in archive"
+msgstr "Neatendita EOF en arĥivo"
+
+#: src/compare.c:180 src/compare.c:196 src/compare.c:310 src/compare.c:412
+msgid "File type differs"
+msgstr "Dosiertipo malsamas"
+
+#: src/compare.c:183 src/compare.c:203 src/compare.c:324
+msgid "Mode differs"
+msgstr "Reĝimo malsamas"
+
+#: src/compare.c:206
+msgid "Uid differs"
+msgstr "UID malsamas"
+
+#: src/compare.c:208
+msgid "Gid differs"
+msgstr "GID malsamas"
+
+#: src/compare.c:212
+msgid "Mod time differs"
+msgstr "Modif-tempo malsamas"
+
+#: src/compare.c:216 src/compare.c:422
+msgid "Size differs"
+msgstr "Grando malsamas"
+
+#: src/compare.c:265
+#, c-format
+msgid "Not linked to %s"
+msgstr "Ne ligita al %s"
+
+#: src/compare.c:289
+msgid "Symlink differs"
+msgstr "Simbol-ligo malsamas"
+
+#: src/compare.c:318
+msgid "Device number differs"
+msgstr "Aparatnumero malsamas"
+
+#: src/compare.c:464
+#, c-format
+msgid "Verify "
+msgstr "Kontroli "
+
+#: src/compare.c:471
+#, fuzzy, c-format
+msgid "%s: Unknown file type '%c', diffed as normal file"
+msgstr "%s: nekonata dosiertipo '%c', komparita kiel normala dosiero"
+
+#: src/compare.c:527
+msgid "Archive contains file names with leading prefixes removed."
+msgstr "Arĥivo enhavas dosiernomojn kun forigitaj antaŭiraj prefiksoj."
+
+#: src/compare.c:533
+msgid "Archive contains transformed file names."
+msgstr "Arĥivo enhavas transformitajn dosiernomojn."
+
+#: src/compare.c:538
+msgid "Verification may fail to locate original files."
+msgstr "Kontrolo povas malsukcesi lokigi originalajn dosierojn."
+
+#: src/compare.c:612
+#, c-format
+msgid "VERIFY FAILURE: %d invalid header detected"
+msgid_plural "VERIFY FAILURE: %d invalid headers detected"
+msgstr[0] "KONTROLA MALSUKCESO: %d malvalida kapo detektita"
+msgstr[1] "KONTROLA MALSUKCESO: %d malvalidaj kapoj detektitaj"
+
+#: src/compare.c:630 src/list.c:221
+#, c-format
+msgid "A lone zero block at %s"
+msgstr "Izolita nul-bloko ĉe %s"
+
+#: src/create.c:73
+#, c-format
+msgid "%s: contains a cache directory tag %s; %s"
+msgstr "%s: enhavas kaŝmemoran dosierujan markon %s; %s"
+
+#: src/create.c:262
+#, c-format
+msgid "value %s out of %s range %s..%s; substituting %s"
+msgstr "valoro %s estas for de intervalo %s %s..%s; ni anstataŭigas %s"
+
+#: src/create.c:268
+#, c-format
+msgid "value %s out of %s range %s..%s"
+msgstr "valoro %s estas for de intervalo %s %s..%s"
+
+#: src/create.c:328
+msgid "Generating negative octal headers"
+msgstr "Generado de negativaj okumaj kapoj"
+
+#: src/create.c:601 src/create.c:664
+#, c-format
+msgid "%s: file name is too long (max %d); not dumped"
+msgstr "%s dosiernomo tro longas (maks %d); ne ŝutita"
+
+#: src/create.c:611
+#, c-format
+msgid "%s: file name is too long (cannot be split); not dumped"
+msgstr "%s dosiernomo tro longas (ne povas esti apartigita); ne ŝutita"
+
+#: src/create.c:638
+#, c-format
+msgid "%s: link name is too long; not dumped"
+msgstr "%s: lignomo tro longas; ne ŝutita"
+
+#: src/create.c:1084
+#, c-format
+msgid "%s: File shrank by %s byte; padding with zeros"
+msgid_plural "%s: File shrank by %s bytes; padding with zeros"
+msgstr[0] "%s: dosiero malpligrandiĝis je %s bajto; ni ŝtopas per nulo"
+msgstr[1] "%s: dosiero malpligrandiĝis je %s bajtoj; ni ŝtopas per nuloj"
+
+#: src/create.c:1180
+#, c-format
+msgid "%s: file is on a different filesystem; not dumped"
+msgstr "%s: dosiero estas en malsama dosiersistemo; ne ŝutita"
+
+#: src/create.c:1223 src/create.c:1234 src/incremen.c:610 src/incremen.c:617
+msgid "contents not dumped"
+msgstr "enhavo ne estas ŝutita"
+
+#: src/create.c:1438
+#, c-format
+msgid "%s: Unknown file type; file ignored"
+msgstr "%s: nekonata dosiertipo; dosiero estas preteratentita"
+
+#: src/create.c:1549
+#, c-format
+msgid "Missing links to %s."
+msgstr "Mankas ligoj al %s."
+
+#: src/create.c:1710
+#, c-format
+msgid "%s: file is unchanged; not dumped"
+msgstr "%s: dosiero estas nemodifita; ne ŝutita"
+
+#: src/create.c:1719
+#, c-format
+msgid "%s: file is the archive; not dumped"
+msgstr "%s: dosiero estas la arĥivo; ne ŝutita"
+
+#: src/create.c:1747 src/incremen.c:603
+msgid "directory not dumped"
+msgstr "dosierujo ne estas ŝutita"
+
+#: src/create.c:1819
+#, c-format
+msgid "%s: file changed as we read it"
+msgstr "%s: dosiero ŝanĝis dum ni legas ĝin"
+
+#: src/create.c:1900
+#, c-format
+msgid "%s: socket ignored"
+msgstr "%s: konektilo estis preteratentata"
+
+#: src/create.c:1906
+#, c-format
+msgid "%s: door ignored"
+msgstr "%s: pordo estis preteratentata"
+
+#: src/delete.c:218 src/list.c:258 src/update.c:193
+msgid "Skipping to next header"
+msgstr "Ni saltas al sekva kapo"
+
+#: src/delete.c:284
+msgid "Deleting non-header from archive"
+msgstr "Ni forigas ne-kapon el arĥivo"
+
+#: src/extract.c:302
+#, c-format
+msgid "%s: implausibly old time stamp %s"
+msgstr "%s: malprobable malnova temp-indiko %s"
+
+#: src/extract.c:320
+#, c-format
+msgid "%s: time stamp %s is %s s in the future"
+msgstr "%s: temp-indiko %s estas %s s estontece"
+
+#: src/extract.c:536
+#, c-format
+msgid "%s: Unexpected inconsistency when making directory"
+msgstr "%s: neatendita malkohero dum kreo de dosierujo"
+
+#: src/extract.c:705
+#, c-format
+msgid "%s: skipping existing file"
+msgstr ""
+
+#: src/extract.c:821
+#, c-format
+msgid "%s: Directory renamed before its status could be extracted"
+msgstr "%s: dosierujo estis renomigata antaŭ ol ĝia stato povis esti prenata"
+
+#: src/extract.c:1010
+msgid "Extracting contiguous files as regular files"
+msgstr "Ni elprenas daŭrigajn dosierojn kiel ordinarajn dosierojn"
+
+#: src/extract.c:1365
+msgid "Attempting extraction of symbolic links as hard links"
+msgstr "Ni provas elpreni simbolajn ligojn kiel rektajn ligojn"
+
+#: src/extract.c:1528
+#, c-format
+msgid "%s: Cannot extract -- file is continued from another volume"
+msgstr "%s: ne eblas eltiri -- dosiero daŭriĝas el alia datumvolumo"
+
+#: src/extract.c:1535 src/list.c:1135
+msgid "Unexpected long name header"
+msgstr "Neatendita long-noma kapo"
+
+#: src/extract.c:1542
+#, fuzzy, c-format
+msgid "%s: Unknown file type '%c', extracted as normal file"
+msgstr "%s: nekonata dosiertipo '%c', ni eltiras kiel normalan dosieron"
+
+#: src/extract.c:1568
+#, c-format
+msgid "Current %s is newer or same age"
+msgstr "Nuna %s estas pli nova aŭ sam-aĝa"
+
+#: src/extract.c:1620
+#, c-format
+msgid "%s: Was unable to backup this file"
+msgstr "%s: ne eblis savkopii tiun ĉi dosieron"
+
+#: src/extract.c:1767
+#, c-format
+msgid "Cannot rename %s to %s"
+msgstr "Ne eblas renomigi %s al %s"
+
+#: src/incremen.c:494 src/incremen.c:536
+#, c-format
+msgid "%s: Directory has been renamed from %s"
+msgstr "%s: dosierujo estas renomigita el %s"
+
+#: src/incremen.c:549
+#, c-format
+msgid "%s: Directory is new"
+msgstr "%s: dosierujo estas nova"
+
+#: src/incremen.c:566
+#, fuzzy, c-format
+msgid "%s: directory is on a different filesystem; not dumped"
+msgstr "%s: dosiero estas en malsama dosiersistemo; ne ŝutita"
+
+#: src/incremen.c:587
+#, c-format
+msgid "%s: Directory has been renamed"
+msgstr "%s: dosierujo estas renomigita"
+
+#: src/incremen.c:1001 src/incremen.c:1016
+msgid "Invalid time stamp"
+msgstr "Malvalida temp-indiko"
+
+#: src/incremen.c:1045
+#, fuzzy
+msgid "Invalid modification time"
+msgstr "Malvalida modif-tempo (sekundoj)"
+
+#: src/incremen.c:1055
+msgid "Invalid modification time (nanoseconds)"
+msgstr "Malvalida modif-tempo (nanosekundoj)"
+
+#: src/incremen.c:1071
+msgid "Invalid device number"
+msgstr "Malvalida aparatnumero"
+
+#: src/incremen.c:1079
+msgid "Invalid inode number"
+msgstr "Malvalida numero 'inode'"
+
+#: src/incremen.c:1135
+#, c-format
+msgid "%s: byte %s: %s %.*s... too long"
+msgstr ""
+
+#: src/incremen.c:1151 src/incremen.c:1206 src/incremen.c:1268
+msgid "Unexpected EOF in snapshot file"
+msgstr "Neatendita EOF en specimena dosiero"
+
+#: src/incremen.c:1157
+#, c-format
+msgid "%s: byte %s: %s %s followed by invalid byte 0x%02x"
+msgstr ""
+
+#: src/incremen.c:1169
+#, c-format
+msgid ""
+"%s: byte %s: (valid range %s..%s)\n"
+"\t%s %s"
+msgstr ""
+
+#: src/incremen.c:1176
+#, c-format
+msgid "%s: byte %s: %s %s"
+msgstr ""
+
+#: src/incremen.c:1257
+#, c-format
+msgid "%s: byte %s: %s"
+msgstr ""
+
+#: src/incremen.c:1260
+msgid "Missing record terminator"
+msgstr "Mankas rikord-finiganto"
+
+#: src/incremen.c:1366 src/incremen.c:1369
+msgid "Bad incremental file format"
+msgstr "Malĝusta aldona dosier-formo"
+
+#: src/incremen.c:1388
+#, c-format
+msgid "Unsupported incremental format version: %<PRIuMAX>"
+msgstr "Nesubtenata versio de aldona formo: %<PRIuMAX>"
+
+#: src/incremen.c:1543
+#, c-format
+msgid "Malformed dumpdir: expected '%c' but found %#3o"
+msgstr "Fuŝa 'dumpdir': ni atendis '%c' sed trovis %#3o"
+
+#: src/incremen.c:1553
+msgid "Malformed dumpdir: 'X' duplicated"
+msgstr "Fuŝa 'dumpdir': duobligita 'X'"
+
+#: src/incremen.c:1566
+msgid "Malformed dumpdir: empty name in 'R'"
+msgstr "Fuŝa 'dumpdir': malplena nomo en 'R'"
+
+#: src/incremen.c:1579
+msgid "Malformed dumpdir: 'T' not preceeded by 'R'"
+msgstr "Fuŝa 'dumpdir': 'T' ne antaŭsekvata de 'R'"
+
+#: src/incremen.c:1585
+msgid "Malformed dumpdir: empty name in 'T'"
+msgstr "Fuŝa 'dumpdir': malplena nomo en 'T'"
+
+#: src/incremen.c:1605
+#, c-format
+msgid "Malformed dumpdir: expected '%c' but found end of data"
+msgstr "Fuŝa 'dumpdir': ni atendis '%c' sed trovis finon de datumaro"
+
+#: src/incremen.c:1612
+msgid "Malformed dumpdir: 'X' never used"
+msgstr "Fuŝa 'dumpdir': neniam uzata 'X'"
+
+#: src/incremen.c:1656
+#, c-format
+msgid "Cannot create temporary directory using template %s"
+msgstr "Ne eblas krei provizoran dosierujon uzante la ŝablonon %s"
+
+#: src/incremen.c:1717
+#, c-format
+msgid "%s: Not purging directory: unable to stat"
+msgstr "%s: ni ne netigas dosierujon: ne eblas apliki 'stat'"
+
+#: src/incremen.c:1730
+#, c-format
+msgid "%s: directory is on a different device: not purging"
+msgstr "%s: dosierujo estas en malsama aparato: ni ne netigas"
+
+#: src/incremen.c:1738
+#, c-format
+msgid "%s: Deleting %s\n"
+msgstr "%s: forigo de %s\n"
+
+#: src/incremen.c:1743
+#, c-format
+msgid "%s: Cannot remove"
+msgstr "%s: ne eblas forigi"
+
+#: src/list.c:189
+#, c-format
+msgid "%s: Omitting"
+msgstr "%s: ni malinkluzivigas"
+
+#: src/list.c:206
+#, c-format
+msgid "block %s: ** Block of NULs **\n"
+msgstr "bloko %s: ** Bloko de NULOj **\n"
+
+#: src/list.c:232
+#, c-format
+msgid "block %s: ** End of File **\n"
+msgstr "bloko %s: ** Fino de dosiero **\n"
+
+#: src/list.c:255 src/list.c:1107 src/list.c:1362
+#, c-format
+msgid "block %s: "
+msgstr "bloko %s: "
+
+#. TRANSLATORS: %s is type of the value (gid_t, uid_t,
+#. etc.)
+#: src/list.c:722
+#, c-format
+msgid "Blanks in header where numeric %s value expected"
+msgstr "Vakoj en kapo kie numera valoro %s estas atendata"
+
+#. TRANSLATORS: Second %s is a type name (gid_t,uid_t,etc.)
+#: src/list.c:777
+#, c-format
+msgid "Archive octal value %.*s is out of %s range; assuming two's complement"
+msgstr ""
+"Arĥiva okuma valoro %.*s estas for de intervalo %s; ni konsideras "
+"komplementon de du"
+
+#. TRANSLATORS: Second %s is a type name (gid_t,uid_t,etc.)
+#: src/list.c:788
+#, c-format
+msgid "Archive octal value %.*s is out of %s range"
+msgstr "Arĥiva okuma valoro %.*s estas for de intervalo %s"
+
+#: src/list.c:809
+msgid "Archive contains obsolescent base-64 headers"
+msgstr "Arĥivo enhavas malaktualajn kapojn 'base-64'"
+
+#: src/list.c:823
+#, c-format
+msgid "Archive signed base-64 string %s is out of %s range"
+msgstr "Signita ĉeno 'base-64' de arĥivo (%s) estas for de intervalo %s"
+
+#: src/list.c:854
+#, c-format
+msgid "Archive base-256 value is out of %s range"
+msgstr "Valoro 'base-256' de arĥivo estas for de intervalo %s"
+
+#. TRANSLATORS: Second %s is a type name (gid_t,uid_t,etc.)
+#: src/list.c:883
+#, c-format
+msgid "Archive contains %.*s where numeric %s value expected"
+msgstr "Arĥivo enhavas %.*s kie estas atendata numera valoro %s"
+
+#. TRANSLATORS: Second %s is type name (gid_t,uid_t,etc.)
+#: src/list.c:905
+#, c-format
+msgid "Archive value %s is out of %s range %s..%s"
+msgstr "Arĥiva valoro %s estas for de intervalo %s: %s..%s"
+
+#: src/list.c:1262
+#, c-format
+msgid " link to %s\n"
+msgstr " kunligo al %s\n"
+
+#: src/list.c:1270
+#, c-format
+msgid " unknown file type %s\n"
+msgstr " nekonata dosiertipo %s\n"
+
+#: src/list.c:1288
+#, c-format
+msgid "--Long Link--\n"
+msgstr "--Longa ligo--\n"
+
+#: src/list.c:1292
+#, c-format
+msgid "--Long Name--\n"
+msgstr "--Longa nomo--\n"
+
+#: src/list.c:1296
+#, c-format
+msgid "--Volume Header--\n"
+msgstr "--Voluma kapo--\n"
+
+#: src/list.c:1304
+#, c-format
+msgid "--Continued at byte %s--\n"
+msgstr "--Daŭrigita ĉe bajto %s--\n"
+
+#: src/list.c:1367
+msgid "Creating directory:"
+msgstr "Kreado de dosierujo:"
+
+#: src/misc.c:721
+#, c-format
+msgid "Renaming %s to %s\n"
+msgstr "Alinomigo de %s al %s\n"
+
+#: src/misc.c:730 src/misc.c:749
+#, c-format
+msgid "%s: Cannot rename to %s"
+msgstr "%s: ne eblas renomigi al %s"
+
+#: src/misc.c:754
+#, c-format
+msgid "Renaming %s back to %s\n"
+msgstr "Renomigo de %s reen al %s\n"
+
+#: src/misc.c:1093
+#, c-format
+msgid "%s: File removed before we read it"
+msgstr "%s: dosiero estis forigata antaŭ ol ni legis ĝin"
+
+#: src/misc.c:1114
+msgid "child process"
+msgstr "ida procezo"
+
+#: src/misc.c:1123
+msgid "interprocess channel"
+msgstr "interproceza kanalo"
+
+#: src/names.c:360
+#, fuzzy
+msgid "command line"
+msgstr "La komando %s fiaskis"
+
+#: src/names.c:378
+#, fuzzy, c-format
+msgid "%s: file list requested from %s already read from %s"
+msgstr "%s: dosierlisto jam estas legita"
+
+#: src/names.c:448
+#, fuzzy, c-format
+msgid "cannot split string '%s': %s"
+msgstr "ne eblas difini horon por '%s'"
+
+#: src/names.c:490
+#, c-format
+msgid "%s: file name read contains nul character"
+msgstr "%s: lego de dosiernomo enhavas nul-signon"
+
+#: src/names.c:821
+msgid "Pattern matching characters used in file names"
+msgstr "Ŝablon-kongruaj signoj uzataj en dosiernomoj"
+
+#: src/names.c:823
+msgid ""
+"Use --wildcards to enable pattern matching, or --no-wildcards to suppress "
+"this warning"
+msgstr ""
+"Uzu --wildcards por ebligi ŝablon-kongruon, aŭ --no-wildcards por eviti tiun "
+"ĉi averton"
+
+#: src/names.c:841 src/names.c:857
+#, c-format
+msgid "%s: Not found in archive"
+msgstr "%s: ne trovita en arĥivo"
+
+#: src/names.c:842
+#, c-format
+msgid "%s: Required occurrence not found in archive"
+msgstr "%s: postulata apero ne estis trovata en arĥivo"
+
+#: src/names.c:876
+#, c-format
+msgid "Archive label mismatch"
+msgstr "Miskongruo de arĥiva etikedo"
+
+#: src/names.c:1180
+msgid ""
+"Using -C option inside file list is not allowed with --listed-incremental"
+msgstr ""
+"Uzo de la modifilo -C ene de dosierlisto ne estas permesata kun --listed-"
+"incremental"
+
+#: src/names.c:1186
+msgid "Only one -C option is allowed with --listed-incremental"
+msgstr "Nur unu modifilo -C estas permesata kun --listed-incremental"
+
+#: src/tar.c:86
+#, fuzzy, c-format
+msgid "Options '-%s' and '-%s' both want standard input"
+msgstr "Ambaŭ modifiloj '-%s' kaj '-%s' postulas ĉefenigujon"
+
+#: src/tar.c:163
+#, c-format
+msgid "%s: Invalid archive format"
+msgstr "%s: malvalida arĥiv-formo"
+
+#: src/tar.c:187
+msgid "GNU features wanted on incompatible archive format"
+msgstr "GNU-trajtoj estas dezirataj en neakordigebla arĥiv-formo"
+
+#: src/tar.c:255
+#, fuzzy, c-format
+msgid ""
+"Unknown quoting style '%s'. Try '%s --quoting-style=help' to get a list."
+msgstr ""
+"Nekonata citila stilo '%s'. Provu '%s --quoting-stile=help' por havigi "
+"liston."
+
+#: src/tar.c:364
+#, fuzzy
+msgid ""
+"GNU 'tar' saves many files together into a single tape or disk archive, and "
+"can restore individual files from the archive.\n"
+"\n"
+"Examples:\n"
+"  tar -cf archive.tar foo bar  # Create archive.tar from files foo and bar.\n"
+"  tar -tvf archive.tar         # List all files in archive.tar verbosely.\n"
+"  tar -xf archive.tar          # Extract all files from archive.tar.\n"
+msgstr ""
+"GNU-a 'tar' konservas multajn dosierojn kune en unuopa benda aŭ diska "
+"arĥivo, kaj ĝi restarigas apartajn dosierojn el la arĥivo.\n"
+"\n"
+"Ekzemploj:\n"
+"  tar -cf archive.tar foo bar  # Kreas archive.tar el dosieroj foo kaj bar.\n"
+"  tar -tvf archive.tar         # Listigas detale ĉiujn dosierojn el archive."
+"tar.\n"
+"  tar -xf archive.tar          # Eltiras ĉiujn dosierojn el archive.tar.\n"
+
+#: src/tar.c:373
+#, fuzzy
+msgid ""
+"The backup suffix is '~', unless set with --suffix or SIMPLE_BACKUP_SUFFIX.\n"
+"The version control may be set with --backup or VERSION_CONTROL, values "
+"are:\n"
+"\n"
+"  none, off       never make backups\n"
+"  t, numbered     make numbered backups\n"
+"  nil, existing   numbered if numbered backups exist, simple otherwise\n"
+"  never, simple   always make simple backups\n"
+msgstr ""
+"La savkopia sufikso estas '~', krom se difinita per --suffix aŭ per "
+"SIMPLE_BACKUP_SUFFIX.\n"
+"La versi-administrado povas esti difinita per --backup aŭ VERSION_CONTROL, "
+"valoroj estas:\n"
+"\n"
+"  none, off       neniam generi savkopiojn\n"
+"  t, numbered     generi numeritajn savkopiojn\n"
+"  nil, existing   numerigi se numeritaj jam ekzistas, alie generi simplajn\n"
+"  never, simple   ĉiam generi simplajn savkopiojn\n"
+
+#: src/tar.c:403
+msgid "Main operation mode:"
+msgstr "Ĉefa operacia reĝimo:"
+
+#: src/tar.c:406
+msgid "list the contents of an archive"
+msgstr "listigi la enhavon de arĥivo"
+
+#: src/tar.c:408
+msgid "extract files from an archive"
+msgstr "eltiri dosierojn el arĥivo"
+
+#: src/tar.c:411
+msgid "create a new archive"
+msgstr "krei novan arĥivon"
+
+#: src/tar.c:413
+msgid "find differences between archive and file system"
+msgstr "trovi malsamojn inter la arĥivo kaj la dosiersistemo"
+
+#: src/tar.c:416
+msgid "append files to the end of an archive"
+msgstr "postmeti dosierojn al la fino de arĥivo"
+
+#: src/tar.c:418
+msgid "only append files newer than copy in archive"
+msgstr "nur postmeti dosierojn pli novajn ol la kopio en arĥivo"
+
+#: src/tar.c:420
+msgid "append tar files to an archive"
+msgstr "postmeti tar-dosierojn al arĥivo"
+
+#: src/tar.c:423
+msgid "delete from the archive (not on mag tapes!)"
+msgstr "forigi el la arĥivo (ne en magnet-bendoj!)"
+
+#: src/tar.c:425
+msgid "test the archive volume label and exit"
+msgstr "testi la arĥivan volum-etikedon kaj eliri"
+
+#: src/tar.c:430
+msgid "Operation modifiers:"
+msgstr "Operaciaj modifiloj:"
+
+#: src/tar.c:433
+msgid "handle sparse files efficiently"
+msgstr "trakti disajn dosierojn ŝpareme"
+
+#: src/tar.c:434
+msgid "MAJOR[.MINOR]"
+msgstr "ĈEFA[.KROMA]"
+
+#: src/tar.c:435
+msgid "set version of the sparse format to use (implies --sparse)"
+msgstr "difini version de la uzota disa formo (implicas --sparse)"
+
+#: src/tar.c:437
+msgid "handle old GNU-format incremental backup"
+msgstr "trakti malnovan GNU-forman aldonan savkopion"
+
+#: src/tar.c:439
+msgid "handle new GNU-format incremental backup"
+msgstr "trakti novan GNU-forman aldonan savkopion"
+
+#: src/tar.c:441
+msgid "dump level for created listed-incremental archive"
+msgstr "ŝut-nivelo por kreita listita-aldona arĥivo"
+
+#: src/tar.c:443
+msgid "do not exit with nonzero on unreadable files"
+msgstr "ne eliri kun nenulo pro nelegeblaj dosieroj"
+
+#: src/tar.c:445
+msgid ""
+"process only the NUMBERth occurrence of each file in the archive; this "
+"option is valid only in conjunction with one of the subcommands --delete, --"
+"diff, --extract or --list and when a list of files is given either on the "
+"command line or via the -T option; NUMBER defaults to 1"
+msgstr ""
+"procezi nur la NUMERO-an aperon de ĉiu dosiero en la arĥivo; tiu ĉi modifilo "
+"validas nur kune kun unu el la subkomandoj --delete, --diff, --extract aŭ --"
+"list kaj kiam listo de dosieroj estas indikita en la komandlinio aŭ per la "
+"modifilo -T; NUMERO apriore estas 1"
+
+#: src/tar.c:451
+msgid "archive is seekable"
+msgstr "arĥivo estas serĉebla"
+
+#: src/tar.c:453
+msgid "archive is not seekable"
+msgstr "arĥivo ne estas serĉebla"
+
+#: src/tar.c:455
+msgid "do not check device numbers when creating incremental archives"
+msgstr "ne kontroli aparat-numerojn dum kreo de aldonaj arĥivoj"
+
+#: src/tar.c:458
+msgid "check device numbers when creating incremental archives (default)"
+msgstr "kontroli aparat-numerojn dum kreo de aldonaj arĥivoj (aprioras)"
+
+#: src/tar.c:464
+msgid "Overwrite control:"
+msgstr "Anstataŭiga administro:"
+
+#: src/tar.c:467
+msgid "attempt to verify the archive after writing it"
+msgstr "provi kontroli la arĥivon post skribi ĝin"
+
+#: src/tar.c:469
+msgid "remove files after adding them to the archive"
+msgstr "forigi dosierojn post aldoni ilin al la arĥivo"
+
+#: src/tar.c:471
+#, fuzzy
+msgid "don't replace existing files when extracting, treat them as errors"
+msgstr "ne anstataŭigi ekzistantajn dosierojn dum eltiro"
+
+#: src/tar.c:474
+#, fuzzy
+msgid "don't replace existing files when extracting, silently skip over them"
+msgstr "ne anstataŭigi ekzistantajn dosierojn dum eltiro"
+
+#: src/tar.c:477
+msgid "don't replace existing files that are newer than their archive copies"
+msgstr ""
+"ne anstataŭigi ekzistantajn dosierojn kiuj pli novas ol iliaj arĥivaj kopioj"
+
+#: src/tar.c:479
+msgid "overwrite existing files when extracting"
+msgstr "anstataŭigi ekzistantajn dosierojn dum eltiro"
+
+#: src/tar.c:481
+msgid "remove each file prior to extracting over it"
+msgstr "forigi ĉiun dosieron antaŭ ol eltiri sur ĝi"
+
+#: src/tar.c:483
+msgid "empty hierarchies prior to extracting directory"
+msgstr "malplenigi hierarkiojn antaŭ ol eltiri dosierujon"
+
+#: src/tar.c:485
+msgid "preserve metadata of existing directories"
+msgstr "teni metadatumaron pri ekzistantaj dosierujoj"
+
+#: src/tar.c:487
+msgid "overwrite metadata of existing directories when extracting (default)"
+msgstr ""
+"anstataŭigi metadatumaron pri ekzistantaj dosierujoj dum eltiro (aprioras)"
+
+#: src/tar.c:490
+#, fuzzy
+msgid "preserve existing symlinks to directories when extracting"
+msgstr "anstataŭigi ekzistantajn dosierojn dum eltiro"
+
+#: src/tar.c:496
+msgid "Select output stream:"
+msgstr "Elekti eligfluon:"
+
+#: src/tar.c:499
+msgid "extract files to standard output"
+msgstr "eltiri dosierojn al ĉefeligujo"
+
+#: src/tar.c:500 src/tar.c:582 src/tar.c:584 tests/genfile.c:190
+msgid "COMMAND"
+msgstr "KOMANDO"
+
+#: src/tar.c:501
+msgid "pipe extracted files to another program"
+msgstr "dukti eltiritajn dosierojn al alia programo"
+
+#: src/tar.c:503
+msgid "ignore exit codes of children"
+msgstr "preteratenti elir-kodojn de idoj"
+
+#: src/tar.c:505
+msgid "treat non-zero exit codes of children as error"
+msgstr "trakti ne-nulajn elir-kodojn de idoj kiel erarojn"
+
+#: src/tar.c:510
+msgid "Handling of file attributes:"
+msgstr "Traktado de dosier-atributoj:"
+
+#: src/tar.c:513
+msgid "force NAME as owner for added files"
+msgstr "devigi NOMOn kiel posedanton por aldonataj dosieroj"
+
+#: src/tar.c:515
+msgid "force NAME as group for added files"
+msgstr "devigi NOMOn kiel grupon por aldonataj dosieroj"
+
+#: src/tar.c:516 src/tar.c:736
+msgid "DATE-OR-FILE"
+msgstr "DATO-AŬ-DOSIERO"
+
+#: src/tar.c:517
+msgid "set mtime for added files from DATE-OR-FILE"
+msgstr "difini 'mtime' por aldonataj dosieroj el DATO-AŬ-DOSIERO"
+
+#: src/tar.c:518
+msgid "CHANGES"
+msgstr "ŜANĜOJ"
+
+#: src/tar.c:519
+msgid "force (symbolic) mode CHANGES for added files"
+msgstr "devigi (simbolajn) reĝimajn ŜANĜOJn por aldonataj dosieroj"
+
+#: src/tar.c:521
+msgid "METHOD"
+msgstr "METODO"
+
+#: src/tar.c:522
+msgid ""
+"preserve access times on dumped files, either by restoring the times after "
+"reading (METHOD='replace'; default) or by not setting the times in the first "
+"place (METHOD='system')"
+msgstr ""
+"konservi alir-horojn en ŝutitaj dosieroj, aŭ per restarigo de la horoj post "
+"lego (METODO='replace'; aprioras) aŭ per ne-difino de la horoj en la unua "
+"loko (METODO='system')"
+
+#: src/tar.c:526
+msgid "don't extract file modified time"
+msgstr "ne eltiri dosieran modif-horon"
+
+#: src/tar.c:528
+msgid ""
+"try extracting files with the same ownership as exists in the archive "
+"(default for superuser)"
+msgstr ""
+"provi eltiri dosierojn kun la sama posedanteco kiel ekzistanta en la arĥivo "
+"(aprioras por ĉefuzanto)"
+
+#: src/tar.c:530
+msgid "extract files as yourself (default for ordinary users)"
+msgstr "eltiri dosierojn kiel vi mem (aprioras por ordinaraj uzantoj)"
+
+#: src/tar.c:532
+msgid "always use numbers for user/group names"
+msgstr "ĉiam uzi numerojn por uzant/grup-nomoj"
+
+#: src/tar.c:534
+msgid "extract information about file permissions (default for superuser)"
+msgstr "eltiri informon pri dosier-permesoj (aprioras por ĉefuzanto)"
+
+#: src/tar.c:538
+msgid ""
+"apply the user's umask when extracting permissions from the archive (default "
+"for ordinary users)"
+msgstr ""
+"apliki 'umask' de uzanto dum eltiro de permesoj por la arĥivo (aprioras por "
+"ordinaraj uzantoj)"
+
+#: src/tar.c:540
+msgid ""
+"member arguments are listed in the same order as the files in the archive"
+msgstr ""
+
+#: src/tar.c:544
+msgid "same as both -p and -s"
+msgstr "same ol uzi kaj -p kaj -s"
+
+#: src/tar.c:546
+msgid ""
+"delay setting modification times and permissions of extracted directories "
+"until the end of extraction"
+msgstr ""
+"prokrastigi difinon de modif-horoj kaj permesoj de eltiritaj dosierujoj ĝis "
+"la fino de la eltirado"
+
+#: src/tar.c:549
+msgid "cancel the effect of --delay-directory-restore option"
+msgstr "nuligi la efikon de la modifilo --delay-directory-restore"
+
+#: src/tar.c:554
+#, fuzzy
+msgid "Handling of extended file attributes:"
+msgstr "Traktado de dosier-atributoj:"
+
+#: src/tar.c:557
+msgid "Enable extended attributes support"
+msgstr ""
+
+#: src/tar.c:559
+msgid "Disable extended attributes support"
+msgstr ""
+
+#: src/tar.c:560 src/tar.c:562
+msgid "MASK"
+msgstr ""
+
+#: src/tar.c:561
+msgid "specify the include pattern for xattr keys"
+msgstr ""
+
+#: src/tar.c:563
+msgid "specify the exclude pattern for xattr keys"
+msgstr ""
+
+#: src/tar.c:565
+msgid "Enable the SELinux context support"
+msgstr ""
+
+#: src/tar.c:567
+msgid "Disable the SELinux context support"
+msgstr ""
+
+#: src/tar.c:569
+msgid "Enable the POSIX ACLs support"
+msgstr ""
+
+#: src/tar.c:571
+msgid "Disable the POSIX ACLs support"
+msgstr ""
+
+#: src/tar.c:576
+msgid "Device selection and switching:"
+msgstr "Aktivigo kaj elekto de aparato:"
+
+#: src/tar.c:578
+msgid "ARCHIVE"
+msgstr "ARĤIVO"
+
+#: src/tar.c:579
+msgid "use archive file or device ARCHIVE"
+msgstr "uzi arĥivan dosieron aŭ aparaton ARĤIVO"
+
+#: src/tar.c:581
+msgid "archive file is local even if it has a colon"
+msgstr "arĥiva dosiero estas loka eĉ se ĝi havas dupunkton"
+
+#: src/tar.c:583
+msgid "use given rmt COMMAND instead of rmt"
+msgstr "uzi indikitan KOMANDOn rmt anstataŭ rmt"
+
+#: src/tar.c:585
+msgid "use remote COMMAND instead of rsh"
+msgstr "uzi deforan KOMANDOn anstataŭ rsh"
+
+#: src/tar.c:589
+msgid "specify drive and density"
+msgstr "indiki diskon kaj denson"
+
+#: src/tar.c:603
+msgid "create/list/extract multi-volume archive"
+msgstr "krei/listigi/eltiri plur-voluman arĥivon"
+
+#: src/tar.c:605
+msgid "change tape after writing NUMBER x 1024 bytes"
+msgstr "ŝanĝi bend-aparaton post skribi NUMERO x 1024 bajtojn"
+
+#: src/tar.c:607
+msgid "run script at end of each tape (implies -M)"
+msgstr "lanĉi skripton je fino de ĉiu bend-aparato (implicas -M)"
+
+#: src/tar.c:610
+msgid "use/update the volume number in FILE"
+msgstr "uzi/ĝisdatigi la volum-numeron en DOSIERO"
+
+#: src/tar.c:615
+msgid "Device blocking:"
+msgstr "Aparat-blokoj:"
+
+#: src/tar.c:617
+msgid "BLOCKS"
+msgstr "BLOKOJ"
+
+#: src/tar.c:618
+msgid "BLOCKS x 512 bytes per record"
+msgstr "BLOKOJ x 512 bajtoj por rikordo"
+
+#: src/tar.c:620
+msgid "NUMBER of bytes per record, multiple of 512"
+msgstr "NUMERO da bajtoj por rikordo, oblo de 512"
+
+#: src/tar.c:622
+msgid "ignore zeroed blocks in archive (means EOF)"
+msgstr "preteratenti nuligitajn blokojn en arĥivo (signifas EOF)"
+
+#: src/tar.c:624
+msgid "reblock as we read (for 4.2BSD pipes)"
+msgstr "reblokigi dum ni legas (por duktoj 4.2BSD)"
+
+#: src/tar.c:629
+msgid "Archive format selection:"
+msgstr "Elekto de arĥiv-formo:"
+
+#: src/tar.c:631 tests/genfile.c:153
+msgid "FORMAT"
+msgstr "FORMO"
+
+#: src/tar.c:632
+msgid "create archive of the given format"
+msgstr "krei arĥivon el indikita formo"
+
+#: src/tar.c:634
+msgid "FORMAT is one of the following:"
+msgstr "FORMO estas unu el la jenaj:"
+
+#: src/tar.c:635
+msgid "old V7 tar format"
+msgstr "malnova formo V7 tar"
+
+#: src/tar.c:638
+msgid "GNU format as per tar <= 1.12"
+msgstr "Formo GNU kiel en tar <= 1.12"
+
+#: src/tar.c:640
+msgid "GNU tar 1.13.x format"
+msgstr "Formo de GNU-tar 1.13.5"
+
+#: src/tar.c:642
+msgid "POSIX 1003.1-1988 (ustar) format"
+msgstr "Formo POSIX 1003.1-1988 (ustar)"
+
+#: src/tar.c:644
+msgid "POSIX 1003.1-2001 (pax) format"
+msgstr "Formo POSIX 1003.1-2001 (pax)"
+
+#: src/tar.c:645
+msgid "same as pax"
+msgstr "same ol pax"
+
+#: src/tar.c:648
+msgid "same as --format=v7"
+msgstr "same ol --format=v7"
+
+#: src/tar.c:651
+msgid "same as --format=posix"
+msgstr "same ol --format=posix"
+
+#: src/tar.c:652
+msgid "keyword[[:]=value][,keyword[[:]=value]]..."
+msgstr "ŝlosilo[[:]=valoro][,ŝlosilo[[:]=valoro]]..."
+
+#: src/tar.c:653
+msgid "control pax keywords"
+msgstr "kontroli pax-ŝlosilojn"
+
+#: src/tar.c:654
+msgid "TEXT"
+msgstr "TEKSTO"
+
+#: src/tar.c:655
+msgid ""
+"create archive with volume name TEXT; at list/extract time, use TEXT as a "
+"globbing pattern for volume name"
+msgstr ""
+"krei arĥivon kun volum-nomo TEKSTO; dum listigo/eltiro, uzi TEKSTOn kiel "
+"ĵokeran ŝablonon por volum-nomo"
+
+#: src/tar.c:660
+msgid "Compression options:"
+msgstr "Densigaj modifiloj:"
+
+#: src/tar.c:662
+msgid "use archive suffix to determine the compression program"
+msgstr "uzi arĥivan sufikson por determini la densigan programon"
+
+#: src/tar.c:664
+msgid "do not use archive suffix to determine the compression program"
+msgstr "ne uzi la arĥivan sufikson por determini la densigan programon"
+
+#: src/tar.c:666
+msgid "PROG"
+msgstr "PROG"
+
+#: src/tar.c:667
+msgid "filter through PROG (must accept -d)"
+msgstr "filtri tra PROG (devas akcepti -d)"
+
+#: src/tar.c:683
+msgid "Local file selection:"
+msgstr "Loka dosier-elekto:"
+
+#: src/tar.c:686
+msgid "add given FILE to the archive (useful if its name starts with a dash)"
+msgstr ""
+"aldoni la indikitan DOSIEROn al la arĥivo (utilas se ĝia nomo komencas per "
+"streketo)"
+
+#: src/tar.c:687
+msgid "DIR"
+msgstr "UJO"
+
+#: src/tar.c:688
+msgid "change to directory DIR"
+msgstr "ŝanĝi al la dosierujo UJO"
+
+#: src/tar.c:690
+msgid "get names to extract or create from FILE"
+msgstr "havigi nomojn por eltiri aŭ krei el DOSIERO"
+
+#: src/tar.c:692
+msgid "-T reads null-terminated names, disable -C"
+msgstr "-T legas nul-finigitajn nomojn, malebligas -C"
+
+#: src/tar.c:694
+msgid "disable the effect of the previous --null option"
+msgstr "malebligi la efikon de la antaŭa modifilo --null"
+
+#: src/tar.c:696
+msgid "unquote filenames read with -T (default)"
+msgstr "malcitigi dosiernomojn legitajn per -T (aprioras)"
+
+#: src/tar.c:698
+msgid "do not unquote filenames read with -T"
+msgstr "ne malcitigi dosiernomojn legitajn per -T"
+
+#: src/tar.c:699 tests/genfile.c:136
+msgid "PATTERN"
+msgstr "ŜABLONO"
+
+#: src/tar.c:700
+msgid "exclude files, given as a PATTERN"
+msgstr "ekskluzivi dosierojn, indikitaj kiel ŜABLONO"
+
+#: src/tar.c:702
+msgid "exclude patterns listed in FILE"
+msgstr "ekskluzivi ŝablonojn listigitajn en DOSIERO"
+
+#: src/tar.c:704
+msgid ""
+"exclude contents of directories containing CACHEDIR.TAG, except for the tag "
+"file itself"
+msgstr ""
+"ekskluzivi enhavojn de dosierujoj enhavantaj CACHEDIR.TAG, krom por la "
+"markdosiero mem"
+
+#: src/tar.c:707
+msgid "exclude everything under directories containing CACHEDIR.TAG"
+msgstr "ekskluzivi ĉion sub dosierujoj enhavantaj CACHEDIR.TAG"
+
+#: src/tar.c:710
+msgid "exclude directories containing CACHEDIR.TAG"
+msgstr "ekskluzivi dosierujojn enhavantajn CACHEDIR.TAG"
+
+#: src/tar.c:712
+msgid "exclude contents of directories containing FILE, except for FILE itself"
+msgstr ""
+"ekskluzivi enhavojn de dosierujoj enhavantaj DOSIEROn, krom por DOSIERO mem"
+
+#: src/tar.c:715
+msgid "exclude everything under directories containing FILE"
+msgstr "ekskluzivi ĉion sub dosierujoj enhavantaj DOSIERO"
+
+#: src/tar.c:717
+msgid "exclude directories containing FILE"
+msgstr "ekskluzivi dosierujojn enhavantajn DOSIEROn"
+
+#: src/tar.c:719
+msgid "exclude version control system directories"
+msgstr "ekskluzivi versikontrol-sistemajn dosierujojn"
+
+#: src/tar.c:721
+msgid "exclude backup and lock files"
+msgstr "ekskluzivi savkopiajn kaj ŝlosajn dosierojn"
+
+#: src/tar.c:723
+msgid "avoid descending automatically in directories"
+msgstr "eviti malsupreniri aŭtomate en dosierujoj"
+
+#: src/tar.c:725
+msgid "stay in local file system when creating archive"
+msgstr "resti en loka dosiersistemo dum kreo de arĥivo"
+
+#: src/tar.c:727
+msgid "recurse into directories (default)"
+msgstr "rekursigi en dosierujojn (aprioras)"
+
+#: src/tar.c:729
+#, fuzzy
+msgid "don't strip leading '/'s from file names"
+msgstr "ne demeti antaŭirajn '/'-oj el dosiernomoj"
+
+#: src/tar.c:731
+msgid "follow symlinks; archive and dump the files they point to"
+msgstr "sekvi simbol-ligojn; arĥivi kaj ŝuti la dosierojn, kiujn ili indikas"
+
+#: src/tar.c:733
+msgid "follow hard links; archive and dump the files they refer to"
+msgstr ""
+"sekvi rekt-ligojn; arĥivi kaj ŝuti la dosierojn, kiujn ili referencigas"
+
+#: src/tar.c:734
+msgid "MEMBER-NAME"
+msgstr "MEMBRO-NOMO"
+
+#: src/tar.c:735
+#, fuzzy
+msgid "begin at member MEMBER-NAME when reading the archive"
+msgstr "komenci per la membro MEMBRO-NOMO en la arĥivo"
+
+#: src/tar.c:737
+msgid "only store files newer than DATE-OR-FILE"
+msgstr "nur konservi dosierojn pli novajn ol DATO-AŬ-DOSIERO"
+
+#: src/tar.c:739
+msgid "DATE"
+msgstr "DATO"
+
+#: src/tar.c:740
+msgid "compare date and time when data changed only"
+msgstr "kompari daton kaj horon nur kiam datumaro ŝanĝis"
+
+#: src/tar.c:741
+msgid "CONTROL"
+msgstr "KONTROLO"
+
+#: src/tar.c:742
+msgid "backup before removal, choose version CONTROL"
+msgstr "savkopii antaŭ ol forigi, elekti versi-KONTROLOn"
+
+#: src/tar.c:743 src/tar.c:824 src/tar.c:826 tests/genfile.c:169
+msgid "STRING"
+msgstr "ĈENO"
+
+#: src/tar.c:744
+msgid ""
+"backup before removal, override usual suffix ('~' unless overridden by "
+"environment variable SIMPLE_BACKUP_SUFFIX)"
+msgstr ""
+"savkopii antaŭ ol forigi, anstataŭigi ordinaran sufikson ('~' krom se "
+"anstataŭigita de medi-variablo SIMPLE_BACKUP_SUFFIX)"
+
+#: src/tar.c:749
+msgid "File name transformations:"
+msgstr "Dosiernomaj transformigoj:"
+
+#: src/tar.c:751
+msgid "strip NUMBER leading components from file names on extraction"
+msgstr "demeti NUMERO antaŭirajn komponantojn el dosiernomoj dum eltiro"
+
+#: src/tar.c:753
+msgid "EXPRESSION"
+msgstr "ESPRIMO"
+
+#: src/tar.c:754
+msgid "use sed replace EXPRESSION to transform file names"
+msgstr "uzi sed-anstataŭigan ESPRIMOn por transformigi dosiernomojn"
+
+#: src/tar.c:760
+msgid "File name matching options (affect both exclude and include patterns):"
+msgstr ""
+"Dosiernom-kongruaj modifiloj (influas kaj ekskluzivajn kaj inkluzivajn "
+"ŝablonojn):"
+
+#: src/tar.c:763
+msgid "ignore case"
+msgstr "preteratenti usklecon"
+
+#: src/tar.c:765
+msgid "patterns match file name start"
+msgstr "ŝablonoj kongruas al komenco de dosiernomo"
+
+#: src/tar.c:767
+#, fuzzy
+msgid "patterns match after any '/' (default for exclusion)"
+msgstr "ŝablonoj kongruas post iu ajn '/' (aprioras por ekskluzivo)"
+
+#: src/tar.c:769
+msgid "case sensitive matching (default)"
+msgstr "uskleca kongruo (aprioras)"
+
+#: src/tar.c:771
+msgid "use wildcards (default for exclusion)"
+msgstr "uzi ĵokerojn (aprioras por ekskluzivo)"
+
+#: src/tar.c:773
+msgid "verbatim string matching"
+msgstr "laŭvorta ĉena kongruo"
+
+#: src/tar.c:775
+#, fuzzy
+msgid "wildcards do not match '/'"
+msgstr "ĵokeroj ne kongruas kun '/'"
+
+#: src/tar.c:777
+#, fuzzy
+msgid "wildcards match '/' (default for exclusion)"
+msgstr "ĵokeroj kongruas kun '/' (aprioras por ekskluzivo)"
+
+#: src/tar.c:782
+msgid "Informative output:"
+msgstr "Informa eligo:"
+
+#: src/tar.c:785
+msgid "verbosely list files processed"
+msgstr "detale listigi procezitajn dosierojn"
+
+#: src/tar.c:786
+msgid "KEYWORD"
+msgstr "ŜLOSILVORTO"
+
+#: src/tar.c:787
+msgid "warning control"
+msgstr "avert-kontrolo"
+
+#: src/tar.c:789
+msgid "display progress messages every NUMBERth record (default 10)"
+msgstr "montri progres-mesaĝojn je ĉiu NUMERa rikordo (aprioras 10)"
+
+#: src/tar.c:791
+msgid "ACTION"
+msgstr "AGO"
+
+#: src/tar.c:792
+msgid "execute ACTION on each checkpoint"
+msgstr "plenumigi AGOn je ĉiu kontrolpunkto"
+
+#: src/tar.c:795
+msgid "print a message if not all links are dumped"
+msgstr "montri mesaĝon se ne ĉiuj ligoj estos ŝutitaj"
+
+#: src/tar.c:796
+msgid "SIGNAL"
+msgstr "SIGNALO"
+
+#: src/tar.c:797
+msgid ""
+"print total bytes after processing the archive; with an argument - print "
+"total bytes when this SIGNAL is delivered; Allowed signals are: SIGHUP, "
+"SIGQUIT, SIGINT, SIGUSR1 and SIGUSR2; the names without SIG prefix are also "
+"accepted"
+msgstr ""
+"montri kiom da bajtoj post la procezado de la arĥivo; kun argumento - montri "
+"kiom da bajtoj, kiam tiu ĉi SIGNALO estos liverata; permesataj signaloj "
+"estas: SIGHUP, SIGQUIT, SIGINT, SIGUSR1 kaj SIGUSR2; la nomoj sen prefikso "
+"SIG ankaŭ akcepteblas"
+
+#: src/tar.c:802
+msgid "print file modification times in UTC"
+msgstr "montri dosierajn modif-horojn laŭ UTC"
+
+#: src/tar.c:804
+msgid "print file time to its full resolution"
+msgstr "montri dosieran horon per ĝia tuta distingivo"
+
+#: src/tar.c:806
+msgid "send verbose output to FILE"
+msgstr "sendi detalan eligon al DOSIERO"
+
+#: src/tar.c:808
+msgid "show block number within archive with each message"
+msgstr "montri bloknumeron ene de arĥivo je ĉiu mesaĝo"
+
+#: src/tar.c:810
+msgid "ask for confirmation for every action"
+msgstr "peti konfirmon por ĉiu ago"
+
+#: src/tar.c:813
+msgid "show tar defaults"
+msgstr "montri apriorojn de tar"
+
+#: src/tar.c:815
+msgid "show valid ranges for snapshot-file fields"
+msgstr ""
+
+#: src/tar.c:817
+msgid ""
+"when listing or extracting, list each directory that does not match search "
+"criteria"
+msgstr ""
+"dum listigo aŭ eltiro, listigi ĉiun dosierujon kiu ne kongruas al serĉ-"
+"kriterio"
+
+#: src/tar.c:819
+msgid "show file or archive names after transformation"
+msgstr "montri dosieron aŭ arĥivajn nomojn post transformigo"
+
+#: src/tar.c:822
+msgid "STYLE"
+msgstr "STILO"
+
+#: src/tar.c:823
+msgid "set name quoting style; see below for valid STYLE values"
+msgstr "difini nom-citigan stilon; vidu sube por validaj valoroj de STILO"
+
+#: src/tar.c:825
+msgid "additionally quote characters from STRING"
+msgstr "krome citigi signojn el ĈENO"
+
+#: src/tar.c:827
+msgid "disable quoting for characters from STRING"
+msgstr "malebligi citigon por signoj el ĈENO"
+
+#: src/tar.c:832
+msgid "Compatibility options:"
+msgstr "Akordigeblaj modifiloj:"
+
+#: src/tar.c:835
+msgid ""
+"when creating, same as --old-archive; when extracting, same as --no-same-"
+"owner"
+msgstr "dum kreo, same ol --old-archive; dum eltiro, same ol --no-same-owner"
+
+#: src/tar.c:840
+msgid "Other options:"
+msgstr "Aliaj modifiloj:"
+
+#: src/tar.c:843
+msgid "disable use of some potentially harmful options"
+msgstr "malebligi uzon de kelkaj eble damaĝaj modifiloj"
+
+#: src/tar.c:978
+#, fuzzy
+msgid ""
+"You may not specify more than one '-Acdtrux', '--delete' or  '--test-label' "
+"option"
+msgstr ""
+"Vi ne devas indiki pli ol unu el la modifiloj '-Acdtrux' aŭ '--test-label'"
+
+#: src/tar.c:988
+msgid "Conflicting compression options"
+msgstr "Konfliktantaj densigaj modifiloj"
+
+#: src/tar.c:1047
+#, c-format
+msgid "Unknown signal name: %s"
+msgstr "Nekonata signal-nomo: %s"
+
+#: src/tar.c:1071
+msgid "Date sample file not found"
+msgstr "Data specimen-dosiero ne estis trovata"
+
+#: src/tar.c:1079
+#, c-format
+msgid "Substituting %s for unknown date format %s"
+msgstr "Ni anstataŭigas %s por la nekonata dato-formo %s"
+
+#: src/tar.c:1108
+#, fuzzy, c-format
+msgid "Option %s: Treating date '%s' as %s"
+msgstr "Modifilo %s: ni traktas daton '%s' kiel %s"
+
+#: src/tar.c:1151 src/tar.c:1155 src/tar.c:1159 src/tar.c:1163 src/tar.c:1167
+#: src/tar.c:1171
+#, c-format
+msgid "filter the archive through %s"
+msgstr "filtri la arĥivon tra %s"
+
+#: src/tar.c:1179
+msgid "Valid arguments for the --quoting-style option are:"
+msgstr "Validaj argumentoj por la modifilo --quoting-style estas:"
+
+#: src/tar.c:1183
+msgid ""
+"\n"
+"*This* tar defaults to:\n"
+msgstr ""
+"\n"
+"*Tiu ĉi* tar apriorigas tion:\n"
+
+#: src/tar.c:1295
+#, fuzzy
+msgid "Invalid owner or group ID"
+msgstr "Malvalida posedanto"
+
+#: src/tar.c:1339
+msgid "Invalid blocking factor"
+msgstr "Malvalida blok-faktoro"
+
+#: src/tar.c:1452
+msgid "Invalid tape length"
+msgstr "Malvalida benda longo"
+
+#: src/tar.c:1466
+msgid "Invalid incremental level value"
+msgstr "Malvalida aldon-nivela valoro"
+
+#: src/tar.c:1512
+msgid "More than one threshold date"
+msgstr "Pli ol unu lim-dato"
+
+#: src/tar.c:1571 src/tar.c:1574
+msgid "Invalid sparse version value"
+msgstr "Malvalida disa versi-valoro"
+
+#: src/tar.c:1659
+msgid "--atime-preserve='system' is not supported on this platform"
+msgstr "--atime-preserve='system' ne estas subtenata en tiu ĉi platformo"
+
+#: src/tar.c:1684
+msgid "--checkpoint value is not an integer"
+msgstr "valoro de --checkpoint ne estas entjero"
+
+#: src/tar.c:1801
+msgid "Invalid mode given on option"
+msgstr "Malvalida reĝimo indikita en modifilo"
+
+#: src/tar.c:1858
+msgid "Invalid number"
+msgstr "Malvalida numero"
+
+#: src/tar.c:1915
+msgid ""
+"The --preserve option is deprecated, use --preserve-permissions --preserve-"
+"order instead"
+msgstr ""
+"La modifilo --preserve estas malrekomendinda, uzu --preserve-permissions --"
+"preserve-order anstataŭe"
+
+#: src/tar.c:1926
+msgid "Invalid record size"
+msgstr "Malvalida rikord-grando"
+
+#: src/tar.c:1929
+#, c-format
+msgid "Record size must be a multiple of %d."
+msgstr "Rikord-grando devas esti oblo de %d."
+
+#: src/tar.c:1975
+msgid "Invalid number of elements"
+msgstr "Malvalida nombro da elementoj"
+
+#: src/tar.c:1995
+msgid "Only one --to-command option allowed"
+msgstr "Nur unu modifilo --to-command estas permesata"
+
+#: src/tar.c:2107
+#, c-format
+msgid "Malformed density argument: %s"
+msgstr "Fuŝa densiga argumento: %s"
+
+#: src/tar.c:2133
+#, fuzzy, c-format
+msgid "Unknown density: '%c'"
+msgstr "Nekonata densigo: '%c'"
+
+#: src/tar.c:2150
+#, fuzzy, c-format
+msgid "Options '-[0-7][lmh]' not supported by *this* tar"
+msgstr "Modifiloj '-[0-7][lmh]' ne estas subtenata de *tiu ĉi* tar"
+
+#: src/tar.c:2163
+msgid "[FILE]..."
+msgstr "[DOSIERO]..."
+
+#: src/tar.c:2306
+#, fuzzy, c-format
+msgid "Old option '%c' requires an argument."
+msgstr "La malnova modifilo '%c' postulas argumenton."
+
+#: src/tar.c:2386
+msgid "--occurrence is meaningless without a file list"
+msgstr "Sen dosierlisto, --occurrence estas sensignifa"
+
+#: src/tar.c:2389
+#, fuzzy, c-format
+msgid "--occurrence cannot be used with %s"
+msgstr "--occurrence ne povas esti uzata en la petita operaci-reĝimo"
+
+#: src/tar.c:2408
+#, fuzzy
+msgid "Multiple archive files require '-M' option"
+msgstr "Multoblaj arĥiv-dosieroj postulas modifilon '-M'"
+
+#: src/tar.c:2413
+msgid "Cannot combine --listed-incremental with --newer"
+msgstr "Ne eblas kombini --listed-incremental kun --newer"
+
+#: src/tar.c:2416
+msgid "--level is meaningless without --listed-incremental"
+msgstr "Sen --listed-incremental, --level estas sensignifa"
+
+#: src/tar.c:2433
+#, c-format
+msgid "%s: Volume label is too long (limit is %lu byte)"
+msgid_plural "%s: Volume label is too long (limit is %lu bytes)"
+msgstr[0] "%s: volum-etikedo tro longas (limo estas %lu bajto)"
+msgstr[1] "%s: volum-etikedo tro longas (limo estas %lu bajtoj)"
+
+#: src/tar.c:2446
+msgid "Cannot verify multi-volume archives"
+msgstr "Ne eblas kontroli plur-volumajn arĥivojn"
+
+#: src/tar.c:2448
+msgid "Cannot verify compressed archives"
+msgstr "Ne eblas kontroli densigitajn arĥivojn"
+
+#: src/tar.c:2450
+#, fuzzy, c-format
+msgid "--verify cannot be used with %s"
+msgstr "Ŝablono %s ne povas esti uzata"
+
+#: src/tar.c:2457
+msgid "Cannot use multi-volume compressed archives"
+msgstr "Ne eblas uzi plur-volumajn densigitajn arĥivojn"
+
+#: src/tar.c:2461
+msgid "Cannot concatenate compressed archives"
+msgstr "Ne eblas kunmeti densigitajn arĥivojn"
+
+#: src/tar.c:2471
+msgid "--pax-option can be used only on POSIX archives"
+msgstr "--pax-option nur uzeblas en arĥivoj POSIX"
+
+#: src/tar.c:2478
+#, fuzzy
+msgid "--acls can be used only on POSIX archives"
+msgstr "--pax-option nur uzeblas en arĥivoj POSIX"
+
+#: src/tar.c:2483
+#, fuzzy
+msgid "--selinux can be used only on POSIX archives"
+msgstr "--pax-option nur uzeblas en arĥivoj POSIX"
+
+#: src/tar.c:2488
+#, fuzzy
+msgid "--xattrs can be used only on POSIX archives"
+msgstr "--pax-option nur uzeblas en arĥivoj POSIX"
+
+#: src/tar.c:2493
+#, fuzzy, c-format
+msgid "--%s option cannot be used with %s"
+msgstr "Ŝablono %s ne povas esti uzata"
+
+#: src/tar.c:2525
+msgid "Volume length cannot be less than record size"
+msgstr "Datum-voluma longo ne povas esti malpli ol rikord-grando"
+
+#: src/tar.c:2528
+msgid "--preserve-order is not compatible with --listed-incremental"
+msgstr "--preserve-order ne akordigeblas kun --listed-incremental"
+
+#: src/tar.c:2539
+msgid "Cowardly refusing to create an empty archive"
+msgstr "Malkuraĝe ni rifuzas krei malplenan arĥivon"
+
+#: src/tar.c:2565
+#, fuzzy
+msgid "Options '-Aru' are incompatible with '-f -'"
+msgstr "Modifiloj '-Aru' ne akordigeblas kun '-f -'"
+
+#: src/tar.c:2660
+#, fuzzy
+msgid ""
+"You must specify one of the '-Acdtrux', '--delete' or '--test-label' options"
+msgstr "Vi devas indiki unu el la modifiloj '-Acdtrux' aŭ '--test-label'"
+
+#: src/tar.c:2715
+#, c-format
+msgid "Exiting with failure status due to previous errors"
+msgstr "Ni eliras kun malsukcesa stato pro antaŭaj eraroj"
+
+#: src/update.c:87
+#, c-format
+msgid "%s: File shrank by %s byte"
+msgid_plural "%s: File shrank by %s bytes"
+msgstr[0] "%s: dosiero malkreskiĝis per %s bajto"
+msgstr[1] "%s: dosiero malkreskiĝis per %s bajtoj"
+
+#: src/xheader.c:164
+#, c-format
+msgid "Keyword %s is unknown or not yet implemented"
+msgstr "Ŝlosilo %s estas nekonata aŭ ankoraŭ ne realigita"
+
+#: src/xheader.c:173
+msgid "Time stamp is out of allowed range"
+msgstr "Temp-indiko estas for de permesata intervalo"
+
+#: src/xheader.c:204
+#, c-format
+msgid "Pattern %s cannot be used"
+msgstr "Ŝablono %s ne povas esti uzata"
+
+#: src/xheader.c:218
+#, c-format
+msgid "Keyword %s cannot be overridden"
+msgstr "Ŝablono %s ne povas esti anstataŭigata"
+
+#: src/xheader.c:667
+msgid "Malformed extended header: missing length"
+msgstr "Fuŝa etendita kapo: mankas longo"
+
+#: src/xheader.c:676
+#, c-format
+msgid "Extended header length %*s is out of range"
+msgstr "Longo de etendita kapo %*s estas for de intervalo"
+
+#: src/xheader.c:688
+msgid "Malformed extended header: missing blank after length"
+msgstr "Fuŝa etendita kapo: mankas blankspaco post longo"
+
+#: src/xheader.c:696
+msgid "Malformed extended header: missing equal sign"
+msgstr "Fuŝa etendita kapo: mankas egal-signo"
+
+#: src/xheader.c:702
+msgid "Malformed extended header: missing newline"
+msgstr "Fuŝa etendita kapo: mankas nov-linio"
+
+#: src/xheader.c:740
+#, fuzzy, c-format
+msgid "Ignoring unknown extended header keyword '%s'"
+msgstr "Ni preteratentas nekonatan etenditan kapan ŝlosilon '%s'"
+
+#: src/xheader.c:1012
+#, c-format
+msgid "Generated keyword/value pair is too long (keyword=%s, length=%s)"
+msgstr "Generita paro ŝlosilo/valoro tro longas (ŝlosilo=%s, longo=%s)"
+
+#. TRANSLATORS: The first %s is the pax extended header keyword
+#. (atime, gid, etc.).
+#: src/xheader.c:1042
+#, c-format
+msgid "Extended header %s=%s is out of range %s..%s"
+msgstr "La etendita kapo %s=%s estas for de la intervalo %s..%s"
+
+#: src/xheader.c:1093 src/xheader.c:1126 src/xheader.c:1455
+#, c-format
+msgid "Malformed extended header: invalid %s=%s"
+msgstr "Fuŝa etendita kapo: malvalida %s=%s"
+
+#: src/xheader.c:1408 src/xheader.c:1433 src/xheader.c:1488
+#, c-format
+msgid "Malformed extended header: excess %s=%s"
+msgstr "Fuŝa etendita kapo: troiga %s=%s"
+
+#: src/xheader.c:1501
+#, c-format
+msgid "Malformed extended header: invalid %s: unexpected delimiter %c"
+msgstr "Fuŝa etendita kapo: malvalida %s: neatendita apartigilo %c"
+
+#: src/xheader.c:1511
+#, c-format
+msgid "Malformed extended header: invalid %s: odd number of values"
+msgstr "Fuŝa etendita kapo: malvalida %s: malpara nombro da valoroj"
+
+#: src/checkpoint.c:109
+#, c-format
+msgid "%s: not a valid timeout"
+msgstr "%s: ne estas valida templimo"
+
+#: src/checkpoint.c:114
+#, c-format
+msgid "%s: unknown checkpoint action"
+msgstr "%s: nekonata kontrolpunkta ago"
+
+#: src/checkpoint.c:134
+msgid "write"
+msgstr "skribi"
+
+#: src/checkpoint.c:134
+msgid "read"
+msgstr "legi"
+
+#. TRANSLATORS: This is a "checkpoint of write operation",
+#. *not* "Writing a checkpoint".
+#. E.g. in Spanish "Punto de comprobaci@'on de escritura",
+#. *not* "Escribiendo un punto de comprobaci@'on"
+#: src/checkpoint.c:224
+#, c-format
+msgid "Write checkpoint %u"
+msgstr "Skriba kontrol-punkto %u"
+
+#. TRANSLATORS: This is a "checkpoint of read operation",
+#. *not* "Reading a checkpoint".
+#. E.g. in Spanish "Punto de comprobaci@'on de lectura",
+#. *not* "Leyendo un punto de comprobaci@'on"
+#: src/checkpoint.c:230
+#, c-format
+msgid "Read checkpoint %u"
+msgstr "Lega kontrol-punkto %u"
+
+#: tests/genfile.c:111
+msgid ""
+"genfile manipulates data files for GNU paxutils test suite.\n"
+"OPTIONS are:\n"
+msgstr ""
+"'genfile' manipulas datumarajn dosierojn por la test-programaro 'paxutils' "
+"de GNU.\n"
+"MODIFILOJ estas:\n"
+
+#: tests/genfile.c:127
+msgid "File creation options:"
+msgstr "Dosier-kreaj modifiloj:"
+
+#: tests/genfile.c:128 tests/genfile.c:139
+msgid "SIZE"
+msgstr "GRANDO"
+
+#: tests/genfile.c:129
+msgid "Create file of the given SIZE"
+msgstr "Krei dosieron el indikita GRANDO"
+
+#: tests/genfile.c:131
+msgid "Write to file NAME, instead of standard output"
+msgstr "Skribi al dosiero NOMO, anstataŭ al ĉefeligujo"
+
+#: tests/genfile.c:133
+msgid "Read file names from FILE"
+msgstr "Legi dosiernomojn el DOSIERO"
+
+#: tests/genfile.c:135
+msgid "-T reads null-terminated names"
+msgstr "-T legas nul-finigitajn nomojn"
+
+#: tests/genfile.c:137
+msgid "Fill the file with the given PATTERN. PATTERN is 'default' or 'zeros'"
+msgstr ""
+"Kompletigi la dosieron per la indikita ŜABLONO. ŜABLONO estas 'default' aŭ "
+"'zeros'"
+
+#: tests/genfile.c:140
+msgid "Size of a block for sparse file"
+msgstr "Grando de bloko por disa dosiero"
+
+#: tests/genfile.c:142
+msgid "Generate sparse file. Rest of the command line gives the file map."
+msgstr ""
+"Generi disan dosieron. Cetero de la komandlinio indikas la dosiermapon."
+
+#: tests/genfile.c:144
+msgid "OFFSET"
+msgstr "DEŜOVO"
+
+#: tests/genfile.c:145
+msgid "Seek to the given offset before writing data"
+msgstr "Moviĝi al la indikita deŝovo antaŭ ol skribi datumaron"
+
+#: tests/genfile.c:151
+msgid "File statistics options:"
+msgstr "Dosier-statistikaj modifiloj:"
+
+#: tests/genfile.c:154
+msgid "Print contents of struct stat for each given file. Default FORMAT is: "
+msgstr ""
+"Montri enhavon de 'struct stat' por ĉiu indikita dosiero. Apriora FORMO "
+"estas: "
+
+#: tests/genfile.c:161
+msgid "Synchronous execution options:"
+msgstr "Sinkronaj plenumaj modifiloj:"
+
+#: tests/genfile.c:163
+msgid "OPTION"
+msgstr "MODIFILO"
+
+#: tests/genfile.c:164
+msgid ""
+"Execute ARGS. Useful with --checkpoint and one of --cut, --append, --touch, "
+"--unlink"
+msgstr ""
+"Plenumi ARGj. Utilas kun --checkpoint kaj unu el --cut, --append, --touch, --"
+"unlink"
+
+#: tests/genfile.c:167
+msgid "Perform given action (see below) upon reaching checkpoint NUMBER"
+msgstr "Plenumi indikitan agon (vidu sube), kiam atingi kontrolpunkton NUMERO"
+
+#: tests/genfile.c:170
+msgid "Set date for next --touch option"
+msgstr "Difini daton por la modifilo --touch kiu sekvas"
+
+#: tests/genfile.c:173
+msgid "Display executed checkpoints and exit status of COMMAND"
+msgstr "Montri plenumitajn kontrolpunktojn kaj elir-staton de KOMANDO"
+
+#: tests/genfile.c:178
+msgid ""
+"Synchronous execution actions. These are executed when checkpoint number "
+"given by --checkpoint option is reached."
+msgstr ""
+"Sinkronaj plenumaj agoj. Tiuj ĉi estas plenumataj kiam oni atingas "
+"kontrolpunktan numeron indikitan de modifilo --checkpoint."
+
+#: tests/genfile.c:181
+msgid ""
+"Truncate FILE to the size specified by previous --length option (or 0, if it "
+"is not given)"
+msgstr ""
+"Tranĉi DOSIEROn al la grando indikita de antaŭa modifilo --length (aŭ 0, se "
+"ne indikita)"
+
+#: tests/genfile.c:185
+msgid "Append SIZE bytes to FILE. SIZE is given by previous --length option."
+msgstr ""
+"Postmeti GRANDO bajtojn al DOSIERO. GRANDO estas indikita de antaŭa modifilo "
+"--length."
+
+#: tests/genfile.c:188
+msgid "Update the access and modification times of FILE"
+msgstr "Ĝisdatigi la alirajn kaj modifajn horojn de DOSIERO"
+
+#: tests/genfile.c:191
+msgid "Execute COMMAND"
+msgstr "Lanĉi KOMANDOn"
+
+#: tests/genfile.c:194
+msgid "Unlink FILE"
+msgstr "Malligi DOSIEROn"
+
+#: tests/genfile.c:244
+#, c-format
+msgid "Invalid size: %s"
+msgstr "Malvalida grando: %s"
+
+#: tests/genfile.c:249
+#, c-format
+msgid "Number out of allowed range: %s"
+msgstr "Numero estas for de permesata intervalo: %s"
+
+#: tests/genfile.c:252
+#, c-format
+msgid "Negative size: %s"
+msgstr "Negativa grando: %s"
+
+#: tests/genfile.c:265 tests/genfile.c:569
+#, c-format
+msgid "stat(%s) failed"
+msgstr "stat(%s) fiaskis"
+
+#: tests/genfile.c:268
+#, c-format
+msgid "requested file length %lu, actual %lu"
+msgstr "petita dosier-longo: %lu, fakta: %lu"
+
+#: tests/genfile.c:272
+#, c-format
+msgid "created file is not sparse"
+msgstr "kreita dosiero ne estas disa"
+
+#: tests/genfile.c:361
+#, c-format
+msgid "Error parsing number near `%s'"
+msgstr "Eraro dum analizo de numero proksime de '%s'"
+
+#: tests/genfile.c:367
+#, c-format
+msgid "Unknown date format"
+msgstr "Nekonata dat-formo"
+
+#: tests/genfile.c:391
+msgid "[ARGS...]"
+msgstr "[ARGj...]"
+
+#: tests/genfile.c:428 tests/genfile.c:468 tests/genfile.c:523
+#: tests/genfile.c:673 tests/genfile.c:687
+#, c-format
+msgid "cannot open `%s'"
+msgstr "ne eblas malfermi '%s'"
+
+#: tests/genfile.c:434
+msgid "cannot seek"
+msgstr "ne eblas apliki 'seek'"
+
+#: tests/genfile.c:451
+#, c-format
+msgid "file name contains null character"
+msgstr "dosiernomo enhavas nul-signon"
+
+#: tests/genfile.c:518
+#, c-format
+msgid "cannot generate sparse files on standard output, use --file option"
+msgstr ""
+"ne eblas generi disajn dosierojn por la ĉefeligujo, uzu la modifilon --file"
+
+#: tests/genfile.c:596
+#, c-format
+msgid "incorrect mask (near `%s')"
+msgstr "malĝusta masko (proksime de '%s')"
+
+#: tests/genfile.c:602 tests/genfile.c:635
+#, c-format
+msgid "Unknown field `%s'"
+msgstr "Nekonata kampo '%s'"
+
+#: tests/genfile.c:662
+#, c-format
+msgid "cannot set time on `%s'"
+msgstr "ne eblas difini horon por '%s'"
+
+#: tests/genfile.c:692
+#, fuzzy, c-format
+msgid "cannot truncate `%s'"
+msgstr "ne eblas apliki 'unlink' al '%s'"
+
+#: tests/genfile.c:701
+#, fuzzy, c-format
+msgid "command failed: %s"
+msgstr "La komando %s fiaskis"
+
+#: tests/genfile.c:706
+#, c-format
+msgid "cannot unlink `%s'"
+msgstr "ne eblas apliki 'unlink' al '%s'"
+
+#: tests/genfile.c:833
+#, c-format
+msgid "Command exited successfully\n"
+msgstr "Komando eliris sukcese\n"
+
+#: tests/genfile.c:835
+#, c-format
+msgid "Command failed with status %d\n"
+msgstr "Komando fiaskis kun stato %d\n"
+
+#: tests/genfile.c:839
+#, c-format
+msgid "Command terminated on signal %d\n"
+msgstr "Komando estis ĉesigata de signalo %d\n"
+
+#: tests/genfile.c:841
+#, c-format
+msgid "Command stopped on signal %d\n"
+msgstr "Komando haltis pro signalo %d\n"
+
+#: tests/genfile.c:844
+#, c-format
+msgid "Command dumped core\n"
+msgstr "Komando ŝutis nukleon\n"
+
+#: tests/genfile.c:847
+#, c-format
+msgid "Command terminated\n"
+msgstr "Komando estas ĉesigita\n"
+
+#: tests/genfile.c:879
+#, c-format
+msgid "--stat requires file names"
+msgstr "--stat postulas dosiernomojn"
+
+#~ msgid "Cannot get working directory"
+#~ msgstr "Ne eblas scii la laboran dosierujon"
+
+#~ msgid "sort names to extract to match archive"
+#~ msgstr "ordigi eltirotajn nomojn por kongrui al la arĥivo"
+
+#~ msgid "Field too long while reading snapshot file"
+#~ msgstr "Kampo tro longa dum lego de specimena dosiero"
+
+#~ msgid "Read error in snapshot file"
+#~ msgstr "Leg-eraro en specimena dosiero"
+
+#~ msgid "Unexpected field value in snapshot file"
+#~ msgstr "Neatendita kamp-valoro en specimena dosiero"
+
+#~ msgid "Invalid group"
+#~ msgstr "Malvalida grupo"
+
+#~ msgid "Extended header length is out of allowed range"
+#~ msgstr "Longo de etendita kapo estas for de permesata intervalo"
